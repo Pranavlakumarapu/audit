@@ -1,0 +1,155 @@
+[
+
+    {
+        "id" : 1,
+        "type" : "start",
+        "img" : "/images/",
+        "name" : "GST Enable"
+    },
+    {
+        "id" : 2,
+        "type" : "start",
+        "img" : "/images/",
+        "name" : "E-Waybills"
+    },
+
+    {
+        "id" : 3,
+        "type" : "Retail",
+        "img" : "/images/supermarket.png",
+        "name" : "SuperMarket"
+    },
+    {
+        "id" : 4,
+        "type" : "Retail",
+        "img" : "/images/shoe.png",
+        "name" : "Footwear"
+    },
+    {
+        "id" : 5,
+        "type" : "Retail",
+        "img" : "/images/phrmacy.png",
+        "name" : "Pharmacy"
+    },
+    {
+        "id" : 6,
+        "type" : "Retail",
+        "img" : "/images/texttile.png",
+        "name" : "Textile "
+    },
+    {
+        "id" : 5,
+        "type" : "Retail",
+        "img" : "/images/garment.png",
+        "name" : "Garment"
+    },
+    {
+        "id" : 6,
+        "type" : "Retail",
+        "img" : "/images/retailshop.png",
+        "name" : "Retail Shop"
+    },
+    {
+        "id" : 5,
+        "type" : "Retail",
+        "img" : "/images/rice.png",
+        "name" : "Kirana/Grocery"
+    },
+    {
+        "id" : 6,
+        "type" : "Retail",
+        "img" : "/images/bookstore.png",
+        "name" : "Book Stores"
+    },
+    {
+        "id" : 5,
+        "type" : "Retail",
+        "img" : "/images/jewellary.png",
+        "name" : "Jewellery"
+    },
+    {
+        "id" : 6,
+        "type" : "Retail",
+        "img" : "/images/departmental.png",
+        "name" : "Departmental"
+    },
+    {
+        "id": 7,
+        "type" : "Distribution",
+        "img" : "/images/FMCG.png",
+        "name" : "FMCG",
+        "description" : "At Auditus-IERP, we understand the importance of FMCG and are committed to providing our clients with the best possible products and services. Our team of experts is dedicated to staying up-to-date with the latest industry trends and consumer preferences, so that we can offer the most innovative and relevant products to meet the needs of our clients."
+    }, 
+    {
+        "id": 7,
+        "type" : "Distribution",
+        "img" : "/images/distributionPhrmacy.png",
+        "name" : "Pharmacy",
+        "description" : "Pharmacy management can be a complex and time-consuming task, but with the right software solution, it can be streamlined and made more efficient. That's where Auditus-IERP comes in. Our state-of-the-art accounting software is designed specifically for pharmacies and is equipped with all the tools and features you need to manage your business more effectively."
+    }, 
+    {
+        "id": 7,
+        "type" : "Distribution",
+        "img" : "/images/Fertilizer.png",
+        "name" : "Fertilizer",
+        "description" : "Auditus-IERP software provides real-time access to all your financial data, making it easy for you to make informed decisions about your business. It allows you to manage your inventory, keep track of your sales and expenses, and generate detailed financial reports with ease."
+    }, 
+    {
+        "id": 7,
+        "type" : "Distribution",
+        "img" : "/images/automobile.png",
+        "name" : "AutoMobile",
+        "description" : "At Auditus-IERP, we understand the unique challenges and requirements of the automotive industry, and our software is designed to meet those needs. We are committed to providing our clients with the best possible solutions to help them grow and succeed in their businesses."
+    }, 
+    {
+        "id": 7,
+        "type" : "Distribution",
+        "img" : "/images/electricappliance.png",
+        "name" : "Electrical Appaliance",
+        "description" : "Auditus-IERP offers a state-of-the-art accounting software designed specifically for electrical appliance businesses. With a user-friendly interface and comprehensive features, our software provides you with a centralized platform to manage all aspects of your business operations. From tracking inventory levels to processing financial transactions, our software has you covered."
+    }, 
+
+    {
+        "id" : 15,
+        "type" : "Manufacturing",
+        "img" : "/images/barcode.gif",
+        "name" : "Segdfgdrmat",
+        "description" :"PfdfgosddddRAvikumarpranavTejaswidddddddd wffdsffffffffffffffffffffffffffffesrfsdddddddddddddddddddddffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff"
+    },
+{
+    "id" : 16,
+    "type" : "Manufacturing",
+    "img" : "/images/barcode.gif",
+    "name" : "SelfPrintFormat",
+    "description" : "Pfdfgosdddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddd"
+    
+},
+{
+    "id" : 17,
+    "type" : "Manufacturing",
+    "img" : "/images/barcode.gif",
+    "name" : "SelfPrintFodgfkfjrmat",
+    "description" : "Pfdfgosdddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddd"
+},
+{
+    "id" : 18,
+    "type" : "Manufacturing",
+    "img" : "/images/barcode.gif",
+    "name" : "SelfPrintFormat",
+    "description" : "Pfdfgosdddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddd"
+},
+{
+    "id" : 19,
+    "type" : "Manufacturing",
+    "img" : "/images/barcode.gif",
+    "name" : "dfsdfd",
+    "description" : "Pfdfgosdddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddd"
+},
+{
+    "id" : 20,
+    "type" : "Manufacturing",
+    "img" : "/images/barcode.gif",
+    "name" : "dfsdfd",
+    "description" : "Pfdfgosdddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddd"
+}
+]

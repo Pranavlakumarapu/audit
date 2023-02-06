@@ -1,0 +1,103 @@
+/* contact form dropdown retail manufacturing distibution start */
+select {
+   -webkit-appearance:none;
+   -moz-appearance:none;
+   -ms-appearance:none;
+   appearance:none;
+   outline:0;
+   box-shadow:none;
+   border:0!important;
+   background: #5c6664;
+   background-image: none;
+   flex: 1;
+   padding: 0 .5em;
+   color:#fff;
+   cursor:pointer;
+   font-size: 1em;
+   font-family: 'Open Sans', sans-serif;
+   
+}
+select::-ms-expand {
+   display: none;
+}
+.select {
+   position: relative;
+   display: flex;
+   width: auto;
+   height: auto;
+   line-height: 3;
+   background: #5c6664;
+   overflow: hidden;
+   border-radius: .25em;
+}
+.select::after {
+   content: '\25BC';
+   position: absolute;
+   top: 0;
+   right: 0;
+   padding: 0 1em;
+   background: #2b2e2e;
+   cursor:pointer;
+   pointer-events:none;
+   transition:.25s all ease;
+}
+.select {
+   color: #23b499;
+}
+.dropdownbussiness{
+   margin-top: 20px;
+}
+
+
+.form{
+   display: flex;
+   flex-direction: column;
+   padding: 20px
+ }
+ 
+ .form input {
+   height: 50px;
+   margin-top: 20px;
+   border-radius: 10px;
+   padding: 5px;
+ 
+ } 
+ /* contact form dropdown retail manufacturing distibution start end*/
+
+ /* Contact button start buttons are send and reset start */
+
+ .contactbutton1{
+   margin: 30px;
+   background: #339DFF;
+   color: #fff;
+   line-height: 38px;
+   border-radius: 50px;
+   transition: 0.5s;
+   width: 170px;
+   border: 1px solid #339DFF;
+ }
+ .messagesend{
+   font-size: 16px;
+ }
+ .contactbutton1:hover{
+   background: #fff;
+   color: #339DFF;
+   box-shadow: 0 4px 4px rgba(83, 100, 255, 0.32);
+ }
+  /* Contact button start buttons are send and reset end */
+
+  .contactbox{
+   padding-bottom: 10px;
+  }
+
+  /* 10 digits verifaction start */
+  #phone{
+   outline: 0;
+  }
+  #phone:valid{
+    border-color:  green;
+  }
+  #phone:focus:invalid{
+   border-color:  red;
+ }
+    /* 10 digits verifaction edn*/

@@ -1,0 +1,45 @@
+[
+
+    {
+        "Feature":"POS",
+    "startup":"X",
+    "standard":"",
+    "Suprem":"✔ "
+    },
+    {
+        "Feature":"Bill by bill",
+    "startup":"X",
+    "standard":"",
+    "Suprem":"✔ "
+    },
+    {
+        "Feature":"Purchase Order",
+    "startup":"X",
+    "standard":"",
+    "Suprem":"✔ "
+    },
+    {
+        "Feature":"Saels Order",
+    "startup":"X",
+    "standard":"",
+    "Suprem":"✔ "
+    },
+    {
+        "Feature":"Saels Qution",
+    "startup":"X",
+    "standard":"✔ ",
+    "Suprem":"✔ "
+    },
+    {
+        "Feature":"Purchase Qution",
+    "startup":"X",
+    "standard":"✔ ",
+    "Suprem":"✔ "
+    },
+    {
+        "Feature":"Purchase Qution",
+    "startup":"X",
+    "standard":"✔ ",
+    "Suprem":"✔ "
+    }
+]
