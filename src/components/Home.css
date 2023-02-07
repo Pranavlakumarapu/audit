@@ -2,10 +2,6 @@
   margin-top: 10px;
   margin-bottom: 10px;
 }
-.description{
-  word-break: break-all;
-  margin: 5px;
-}
 
 .start{
     background-color: red;
@@ -49,9 +45,6 @@ padding-top: 20px;
     list-style: none;
     display: inline-block;
     width: 500px;
-}
-.Distribution  .description{
- width: 40vh;
 }
 
 
