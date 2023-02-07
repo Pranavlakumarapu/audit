@@ -82,12 +82,12 @@ const Contact = () => {
               <label htmlFor="Phone" className="form-label">PhoneNumber</label>
               <input
                 type="number"
-                id="phone"  min="0" 
-               
+                id="phone"
+                min="0" 
                 name="phonenumber"
                 className="form-control"
                 placeholder="Enter your phone"
-                pattern="[0-9]{10}"
+                pattern="[0-9]{4}-[0-9]{3}-[0-9]{3}"
                 required
               />
             </div>

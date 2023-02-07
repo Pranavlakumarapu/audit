@@ -21,6 +21,7 @@
     border-radius: 10px;
     position: absolute;
     bottom: 100px;
+    height: 90%;
     transition: transform .8s;
 }
 .service-logo {
