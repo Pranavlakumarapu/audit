@@ -32,7 +32,7 @@ const Contact = () => {
       <div className="row">
         <div className="col-lg-5 col-md-8 mx-auto shadow border bg-white p-4 rounded">
           <h2 className="text-center fw-bold mb-3">Contact Us</h2>
-          <form name="google-sheet" onSubmit={handleSubmit}>
+          <form name="google-sheet" onSubmit={handleSubmit} >
             <div id="form_alerts">
               {response ? <p>{response}</p> : null}
             </div>
@@ -48,30 +48,7 @@ const Contact = () => {
                 required
               />
             </div>
-            {/* <div className="dropdownbussiness"> 
-   <div className="select">
-   <select name='I am'>
-   <option selected>I am *</option>
-      <option value="Bussiness Owner">Bussiness Owner</option>
-      <option value="Accountant">Accountant</option>  
-      <option value="Student">Student</option>
-      <option value="Others">Others</option>  
-         </select>
-   </div>
-   </div>
-
-            <center>
-   <div className="dropdownbussiness"> 
-   <div className="select">
-   <select name='bussiness'>
-    <option  value="retail">Retail</option>
-    <option  value="distribution">Distribution</option>
-    <option  value="manufacturing">Manufacturing</option>
-         </select>
-   </div>
-   </div>
-   </center> */}
-
+            
 
 <div className='contactdropdown'>
 <select name='bussiness' className="form-select" aria-label="your what bussiness or accountant or student or others">
@@ -105,7 +82,8 @@ const Contact = () => {
               <label htmlFor="Phone" className="form-label">PhoneNumber</label>
               <input
                 type="number"
-                id="phone"
+                id="phone"  min="0" 
+               
                 name="phonenumber"
                 className="form-control"
                 placeholder="Enter your phone"
@@ -117,7 +95,7 @@ const Contact = () => {
               <label htmlFor="Phone" className="form-label">Pincode</label>
               <input
                 type="number"
-                id="pincode"
+                id="pincode"  min="0" 
                 name="pincode"
                 className="form-control"
                 placeholder="Enter your phone"
@@ -144,8 +122,8 @@ const Contact = () => {
              required
             ></textarea>
             <div className=''>
-              <button className="contactbutton1" type="submit" id="myform"><span className='messagesend'>Send message</span></button>
-              <button className="btn btn-danger" type="reset">Reset the form!</button>
+             <center> <button className="contactbutton1" type="submit" id="myform"><span className='messagesend'>Send message</span></button></center>
+              {/* <button className="btn btn-danger" type="reset">Reset the form!</button> */}
             </div>
           </form>
         </div>
