@@ -15,7 +15,7 @@ class Banner extends Component {
       }
     };
   }
-/* this is banner changes */
+/* this is banner changes new */
   render() {
     const { settings } = this.state;
     return (
