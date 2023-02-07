@@ -9,8 +9,7 @@
 }   
 .main{
     width: auto;
-    min-height: 380px;
-    height: auto;
+    min-height: 680px;
     text-align: center;
     position: relative;
     cursor: pointer;
