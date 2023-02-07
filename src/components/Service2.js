@@ -35,10 +35,7 @@ export default function Service2() {
                           </div>
                           <h4 className='servicename'>Integration Solutions</h4>
                           <p>
-                          This iERP has potential to integrate applications which automate all
-                           of an establishment's vital processes such as marketing, human resource 
-                           (HRD), and many more applications with ease. This helps users make effective
-                            data-based decisions.
+                          Auditusi-ERP is a game-changer in business automation. Its integration capabilities streamline critical processes like marketing and HR, leading to improved efficiency and productivity. With seamless integration of various applications, data is centralized, reducing the risk of errors and duplicated efforts. Organizations can make informed, data-driven decisions thanks to real-time access to data and analytics. Auditusi-ERP's advanced solution puts organizations ahead of the curve and unlocks their full potential. It's the answer for organizations seeking long-term success. Auditusi-ERP transforms the way businesses operate, making it a highly sought after solution for modern organizations.
                           </p>
                         </div>
                      </div>
