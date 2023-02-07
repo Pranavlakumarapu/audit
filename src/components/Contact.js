@@ -48,7 +48,7 @@ const Contact = () => {
                 required
               />
             </div>
-            <div className="dropdownbussiness"> 
+            {/* <div className="dropdownbussiness"> 
    <div className="select">
    <select name='I am'>
    <option selected>I am *</option>
@@ -70,7 +70,26 @@ const Contact = () => {
          </select>
    </div>
    </div>
-   </center>
+   </center> */}
+
+
+<div className='contactdropdown'>
+<select name='bussiness' className="form-select" aria-label="your what bussiness or accountant or student or others">
+<option value="Bussiness Owner">Bussiness Owner</option>
+      <option value="Accountant">Accountant</option>  
+      <option value="Student">Student</option>
+      <option value="Others">Others</option>  
+</select>
+</div>
+<br/>
+<div className='contactdropdown'>
+<select name='I am' className="form-select" aria-label="select your retail distribution manufacturing">
+<option selected value="retail">Retail</option>
+<option  value="distribution">Distribution</option>
+<option  value="manufacturing">Manufacturing</option>
+</select>
+</div>
+
             <div className="form-group mb-3">
               <label htmlFor="Email" className="form-label">Email</label>
               <input
@@ -85,7 +104,7 @@ const Contact = () => {
             <div className="form-group mb-3">
               <label htmlFor="Phone" className="form-label">PhoneNumber</label>
               <input
-                type="tel"
+                type="number"
                 id="phone"
                 name="phonenumber"
                 className="form-control"
@@ -95,14 +114,13 @@ const Contact = () => {
               />
             </div>
             <div className="form-group mb-3">
-              <label htmlFor="Phone" className="form-label">Pincod</label>
+              <label htmlFor="Phone" className="form-label">Pincode</label>
               <input
-                type="tel"
-                id="phone"
+                type="number"
+                id="pincode"
                 name="pincode"
                 className="form-control"
                 placeholder="Enter your phone"
-                pattern="[0-9]{10}"
                 required
               />
             </div>

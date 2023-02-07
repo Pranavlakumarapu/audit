@@ -1,5 +1,5 @@
 /* contact form dropdown retail manufacturing distibution start */
-select {
+/* select {
    -webkit-appearance:none;
    -moz-appearance:none;
    -ms-appearance:none;
@@ -61,7 +61,12 @@ select::-ms-expand {
    border-radius: 10px;
    padding: 5px;
  
- } 
+ }  */
+
+ .contactdropdown{
+   border: 1px solid gray;
+   border-radius: 5px;
+ }
  /* contact form dropdown retail manufacturing distibution start end*/
 
  /* Contact button start buttons are send and reset start */

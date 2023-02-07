@@ -19,23 +19,24 @@ class Banner extends Component {
   render() {
     const { settings } = this.state;
     return (
+
       <Slider {...settings}>
-        <div className="container-fluid">
-         <img alt="" src="/images/Banner1.png" className="bannerimage"/>
-        </div>
-        <div>
-      <img alt="" src="/images/banner2.png" className="bannerimage"/>
-        </div>
-        <div>
-       <img alt="" src="/images/banner3.png" className="bannerimage"/>
-        </div>
-        <div>
-        <img alt="" src="/images/banner4.png" className="bannerimage"/>
-        </div>
-        <div>
-        <img alt="" src="/images/banner5.png" className="bannerimage"/>
-        </div>
-      </Slider>
+     <div className="container-fluid">
+      <img alt="" src="/images/Banner1.png" className="bannerimage bannercomponent"/>
+     </div>
+     <div>
+   <img alt="" src="/images/banner2.png" className="bannerimage bannercomponent"/>
+     </div>
+     <div>
+    <img alt="" src="/images/banner3.png" className="bannerimage bannercomponent"/>
+     </div>
+     <div>
+     <img alt="" src="/images/banner4.png" className="bannerimage bannercomponent"/>
+     </div>
+     <div>
+     <img alt="" src="/images/banner5.png" className="bannerimage bannercomponent"/>
+     </div>
+   </Slider>
     );
   }
 }

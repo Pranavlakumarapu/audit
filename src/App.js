@@ -17,6 +17,7 @@ function App() {
  <div>
        <BrowserRouter>
       <Navbar/>
+      <Banner/>
       <Menu/>
 
       <div className="App">

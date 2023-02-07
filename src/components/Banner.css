@@ -10,7 +10,12 @@
     border-radius: 20px;
   } */
 
-.bannerimage{
+/* .bannerimage{
+  width: 100vw;
+  border-radius: 10px;
+} */
+.bannercomponent{
+  padding-top: 85px;
   width: 100vw;
   border-radius: 10px;
 }
