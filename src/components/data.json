@@ -17,37 +17,136 @@
         "id" : 3,
         "type" : "Retail",
         "img" : "/images/supermarket.png",
-        "name" : "SuperMarket"
+        "name" : "SuperMarket",
+        "Product_Detials":[{"Product_title":"SuperMarket",
+        "Product_tile_caption":"sdfsdfd",
+        "product_sliderimgs":[
+            {"simg1":"imppath"},
+            {"simg2":"imppath"},
+            {"simg3":"imppath"}],
+        "product_dec":"sdfdfsf",
+        "product_featureCaption":"Features at Glance",
+        "productlist":[{
+            "sp_img":"sdfsdfdf",
+            "sp_Title":"sdfsdfd",
+            "sp_dec":"sdfsdfd"
+        },
+        {
+            "sp_img":"sdfsdfdf",
+            "sp_Title":"sdfsdfd",
+            "sp_dec":"sdfsdfd"
+        }
+        ]}]
     },
     {
         "id" : 4,
         "type" : "Retail",
         "img" : "/images/shoe.png",
-        "name" : "Footwear"
+        "name" : "Footwear" ,
+        "Product_Detials":[{"Product_title":"Footwear",
+        "Product_tile_caption":"sdfsdfd",
+        "product_sliderimgs":[
+            {"simg1":"imppath"},
+            {"simg2":"imppath"},
+            {"simg3":"imppath"}],
+        "product_dec":"sdfdfsf",
+        "product_featureCaption":"Features at Glance",
+        "productlist":[{
+            "sp_img":"sdfsdfdf",
+            "sp_Title":"sdfsdfd",
+            "sp_dec":"sdfsdfd"
+        },
+        {
+            "sp_img":"sdfsdfdf",
+            "sp_Title":"sdfsdfd",
+            "sp_dec":"sdfsdfd"
+        }
+        ]}]
     },
     {
         "id" : 5,
         "type" : "Retail",
         "img" : "/images/phrmacy.png",
-        "name" : "Pharmacy"
+        "name" : "Pharmacy",
+        "Product_Detials":[{
+        "Product_title":"Pharmacy",
+        "Product_tile_caption":"Introducing the ultimate solution for your Pharmacy business accounting needs: Our Pharmacy Accounting Software",
+        "product_sliderimgs":[
+            {"simg1":"imppath"},
+            {"simg2":"imppath"},
+            {"simg3":"imppath"}],
+        "product_story":"In conclusion, our Pharmacy Accounting Software is the perfect solution for managing your Pharmacy business efficiently and effectively. With its all-in-one solution, you can easily keep track of your finances, inventory, and sales, and ensure that your business stays compliant with GST regulations. Our software is user-friendly, making it easy for you to navigate and manage your business with ease. Don't miss out on this opportunity to streamline your operations and improve your financial performance. Contact us today to learn more about our software and how it can help your business grow.",
+        "product_featureCaption":"Features at Glance",
+        "productlist":[{
+            "sp_img":"sdfsdfdf",
+            "sp_Title":"sdfsdfd",
+            "sp_dec":"sdfsdfd"
+        },
+        {
+            "sp_img":"sdfsdfdf",
+            "sp_Title":"sdfsdfd",
+            "sp_dec":"sdfsdfd"
+        }
+        ]}]
     },
     {
         "id" : 6,
         "type" : "Retail",
         "img" : "/images/texttile.png",
-        "name" : "Textile "
+        "name" : "Textile ",
+        "Product_Detials":[{"Product_title":"Textile",
+        "Product_tile_caption":"sdfsdfd",
+        "product_sliderimgs":[
+            {"simg1":"imppath"},
+            {"simg2":"imppath"},
+            {"simg3":"imppath"}],
+        "product_dec":"sdfdfsf",
+        "product_featureCaption":"Features at Glance",
+        "productlist":[{
+            "sp_img":"sdfsdfdf",
+            "sp_Title":"sdfsdfd",
+            "sp_dec":"sdfsdfd"
+        },
+        {
+            "sp_img":"sdfsdfdf",
+            "sp_Title":"sdfsdfd",
+            "sp_dec":"sdfsdfd"
+        }
+        ]}]
+        
     },
     {
         "id" : 5,
         "type" : "Retail",
         "img" : "/images/garment.png",
-        "name" : "Garment"
+        "name" : "Garment",
+        "Product_Detials":[{"Product_title":"Textile",
+        "Product_tile_caption":"sdfsdfd",
+        "product_sliderimgs":[
+            {"simg1":"imppath"},
+            {"simg2":"imppath"},
+            {"simg3":"imppath"}],
+        "product_dec":"sdfdfsf",
+        "product_featureCaption":"Features at Glance",
+        "productlist":[{
+            "sp_img":"sdfsdfdf",
+            "sp_Title":"sdfsdfd",
+            "sp_dec":"sdfsdfd"
+        },
+        {
+            "sp_img":"sdfsdfdf",
+            "sp_Title":"sdfsdfd",
+            "sp_dec":"sdfsdfd"
+        }
+        ]}]
     },
     {
         "id" : 6,
         "type" : "Retail",
         "img" : "/images/retailshop.png",
         "name" : "Retail Shop"
+       
+        
     },
     {
         "id" : 5,
