@@ -10,11 +10,11 @@ export default function Edition() {
         <h1 className='plan-name'>Comparing Plans</h1>
 
         <table className='container'>
-  <tr className="container">
-    <th>Features</th>
+  <tr className="container ">
+    <th className='edition-feature'>Feature Name</th>
     <th>Startup</th>
-    <th>standard</th>
-    <th>suprem</th>
+    <th>Standard</th>
+    <th>Suprem</th>
   </tr>
 
 </table>
@@ -23,10 +23,8 @@ export default function Edition() {
       {
         Editions.map(
                 (Editions,index) => <div key={index} className="container"><hr/>
-
-
     <tr>
-      <td>{Editions.Feature}</td> 
+      <td className='edition-feature'>{Editions.Feature}</td> 
       <td>{Editions.startup}</td>
       <td>{Editions.standard}</td>
       <td>{Editions.Suprem}</td>

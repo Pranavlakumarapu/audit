@@ -2,8 +2,6 @@ table {
     font-family: arial, sans-serif;
     border-collapse: collapse;
     width: 100%;
-    text-align: center;
-    align-items: center;
   }
   
   td, th {
@@ -24,4 +22,8 @@ table {
     color: red;
     padding-bottom: 70px;
     padding-top: 20px;
+  }
+
+  .edition-feature{
+    text-align: left;
   }

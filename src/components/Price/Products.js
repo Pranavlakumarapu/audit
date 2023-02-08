@@ -14,7 +14,7 @@ export default function Products() {
   <div className="row">
     <div className="col-sm">
     <div className="box1 c-light p-5 rounded-lg shadow">
-          <h1 className="h6  font-weight-bold mb-4 pricing-name text-uppercase">Startup</h1>
+          <h1 className="h6  font-weight-bold mb-4 pricing-name text-uppercase"><span><img  className='productimg' alt='' src='/images/startup 8x8.png' /></span> Startup</h1>
          
            <span className='rate'><center>Single User- ₹10,000 + 18%GST</center></span>
 
@@ -32,7 +32,7 @@ export default function Products() {
 
     <div className="col-sm">
     <div className="boxa p-5 rounded-lg shadow">
-          <h1 className="h6 text-uppercase font-weight-bold mb-4 pricing-name">Standard</h1>
+          <h1 className="h6 text-uppercase font-weight-bold mb-4 pricing-name"><span><img  className='productimg' alt='' src='/images/standard 8x8.png' /></span> Standard</h1>
 
           <center>
 <div className="dropdownbussiness"> 
@@ -55,7 +55,7 @@ export default function Products() {
     </div>
     <div className="col-sm">
     <div className="box3 p-5 rounded-lg shadow">
-          <h1 className="h6 text-uppercase font-weight-bold mb-4 pricing-name">Supreme</h1>
+          <h1 className="h6 text-uppercase font-weight-bold mb-4 pricing-name"><span><img  className='productimg' alt='' src='/images/supreme 8x8.png' /></span> Supreme</h1>
 
 
 <center>

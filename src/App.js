@@ -8,7 +8,7 @@ import Service from './components/Service/Service';
 import Download from './components/Download/Download';
 import Home from './components/Menu/Home';
 import Menu from './components/Menu/Menu';
-import Footer from './components/Price/Footer';
+import Footer from './components/Footer';
 import Edition from './components/Price/Edition';
 import Banner from './components/Banner/Banner';
 function App() {

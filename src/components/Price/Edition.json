@@ -19,31 +19,31 @@
     "Suprem":"✔"
     },
     {
-    "Feature":"Saels Order",
+    "Feature":"Sales Order",
     "startup":"",
     "standard":"",
     "Suprem":"✔ "
     },
     {
-    "Feature":"Saels Qution",
+    "Feature":"Sales Quotation",
     "startup":"",
     "standard":"✔ ",
     "Suprem":"✔ "
     },
     {
-    "Feature":"Purchase Qution",
+    "Feature":"Purchase Quotation",
     "startup":"",
     "standard":"✔ ",
     "Suprem":"✔ "
     },
     {
-     "Feature":"Purchase Challen",
+     "Feature":"Purchase Challan",
     "startup":"",
     "standard":" ",
     "Suprem":"✔ "
     },
       {
-     "Feature":"Sales Challen",
+     "Feature":"Sales Challan",
     "startup":"",
     "standard":" ",
     "Suprem":"✔ "
