@@ -19,6 +19,9 @@ function App() {
       <Navbar/>
       <Banner/>
       <Menu/>
+     
+ 
+      
 
       <div className="App">
         <Routes>

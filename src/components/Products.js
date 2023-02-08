@@ -16,15 +16,14 @@ export default function Products() {
     <div className="box1 c-light p-5 rounded-lg shadow">
           <h1 className="h6  font-weight-bold mb-4 pricing-name text-uppercase">Startup</h1>
          
-           <span className='rate'><center>₹10,000</center></span>
+           <span className='rate'><center>Single User- ₹10,000 + 18%GST</center></span>
 
 
 
           <div className="custom-separator my-4 mx-auto bg-primary"></div>
 
           <ul className="list-unstyled my-5 text-small text-left font-weight-normal">
-          Startup is the basic edition for small business firms.
-This consists accounting, billing, basic GST reports and cloud backup features.
+          STARTUP Edition: Designed for small business firms, the STARTUP edition offers basic functionality for accounting and billing. This edition is ideal for businesses with simple needs, who want to get started with an affordable and easy-to-use software solution. The STARTUP edition provides a solid foundation for businesses looking to streamline their financial processes and manage their finances with confidence
 
 
           </ul>
@@ -50,10 +49,7 @@ This consists accounting, billing, basic GST reports and cloud backup features.
           <div className="custom-separator my-4 mx-auto bg-primary"></div>
 
           <ul className="list-unstyled my-5 text-small text-left font-weight-normal">
-          This edition includes Startup related features along with additional features
-such as Sale/Purchase quotations, Multi Voucher series, Voucher Auditing,
-budgeting, GST analysis reports, POS billing, salesman feature,
-Cost centre and User/party dashboard.
+          STANDARD Edition: The STANDARD edition is a step up from the STARTUP edition, offering more advanced features and greater functionality for growing businesses. This edition provides a comprehensive solution for businesses that need more control over their financial processes and want to take their operations to the next level. The STANDARD edition includes everything from accounting and billing, to advanced reporting and analysis tools, giving businesses the tools they need to succeed.
           </ul>
         </div>
     </div>
@@ -77,10 +73,7 @@ Cost centre and User/party dashboard.
           <div className="custom-separator my-4 mx-auto bg-primary"></div>
 
           <ul className="list-unstyled my-5 text-small text-left font-weight-normal">
-          This edition includes Startup and Standard related features
-along with additional features like data sync between branchs, targets, scheme management, job-work, advanced & graphical analysis reports
-payroll, Voucher/master approval, advanced user management, User Activity logs and many more useful features for business development
-
+          SUPREME Edition: The SUPREME edition is the ultimate solution for large enterprises and businesses with complex financial needs. This edition provides a full suite of features and tools to help businesses manage their finances with ease. From accounting and billing, to inventory management and GST filing, the SUPREME edition has everything businesses need to stay on top of their finances and take their operations to the next level. Whether you're a large multinational corporation or a fast-growing startup, the SUPREME edition is the perfect solution for businesses that want the best of the best.
           </ul>
 
 

@@ -1,45 +1,248 @@
 [
 
     {
-        "Feature":"POS",
-    "startup":"X",
+     "Feature":"POS",
+    "startup":"",
     "standard":"",
     "Suprem":"✔ "
     },
     {
-        "Feature":"Bill by bill",
-    "startup":"X",
-    "standard":"",
+    "Feature":"Bill by bill",
+    "startup":"",
+    "standard":"✔ ",
     "Suprem":"✔ "
     },
     {
-        "Feature":"Purchase Order",
-    "startup":"X",
+    "Feature":"Purchase Order",
+    "startup":"",
     "standard":"",
     "Suprem":"✔"
     },
     {
-        "Feature":"Saels Order",
-    "startup":"X",
+    "Feature":"Saels Order",
+    "startup":"",
     "standard":"",
     "Suprem":"✔ "
     },
     {
-        "Feature":"Saels Qution",
-    "startup":"X",
+    "Feature":"Saels Qution",
+    "startup":"",
     "standard":"✔ ",
     "Suprem":"✔ "
     },
     {
-        "Feature":"Purchase Qution",
-    "startup":"X",
+    "Feature":"Purchase Qution",
+    "startup":"",
     "standard":"✔ ",
     "Suprem":"✔ "
     },
     {
-        "Feature":"Purchase Qution",
-    "startup":"X",
+     "Feature":"Purchase Challen",
+    "startup":"",
+    "standard":" ",
+    "Suprem":"✔ "
+    },
+      {
+     "Feature":"Sales Challen",
+    "startup":"",
+    "standard":" ",
+    "Suprem":"✔ "
+    },
+      {
+     "Feature":"Stock Journal",
+    "startup":"",
     "standard":"✔ ",
+    "Suprem":"✔ "
+    },
+      {
+     "Feature":"Physical stock",
+    "startup":"",
+    "standard":" ",
+    "Suprem":"✔ "
+    },
+      {
+     "Feature":"Production",
+    "startup":"",
+    "standard":"",
+    "Suprem":"✔ "
+    },
+      {
+     "Feature":"MRP Wise Stock",
+    "startup":"",
+    "standard":"✔ ",
+    "Suprem":"✔ "
+    },
+      {
+     "Feature":"BatchWise Wise Stock",
+    "startup":"",
+    "standard":"✔ ",
+    "Suprem":"✔ "
+    },
+      {
+     "Feature":"CostCenter",
+    "startup":"",
+    "standard":"✔ ",
+    "Suprem":"✔ "
+    },
+      {
+     "Feature":"Drug Type",
+    "startup":"",
+    "standard":"✔ ",
+    "Suprem":"✔ "
+    },
+      {
+     "Feature":"Budget ForAccounts",
+    "startup":"",
+    "standard":"✔ ",
+    "Suprem":"✔ "
+    },
+        {
+     "Feature":"MultiUnit",
+    "startup":"",
+    "standard":"✔ ",
+    "Suprem":"✔ "
+    },
+        {
+     "Feature":"SubLedger",
+    "startup":"",
+    "standard":"✔ ",
+    "Suprem":"✔ "
+    },    {
+     "Feature":"Critical Level Stock Manual",
+    "startup":"",
+    "standard":"✔ ",
+    "Suprem":"✔ "
+    },    {
+     "Feature":"Critical Level AutoMatic",
+    "startup":" ",
+    "standard":"✔ ",
+    "Suprem":"✔ "
+    },    {
+     "Feature":"Barcode Management",
+    "startup":"",
+    "standard":" ",
     "Suprem":"✔ "
     }
+    , {
+     "Feature":"Google Drive Backup",
+    "startup":"",
+    "standard":"✔ ",
+    "Suprem":"✔ "
+    },    {
+     "Feature":"Credit Limits For Accounts",
+    "startup":"",
+    "standard":"✔ ",
+    "Suprem":"✔ "
+    },    {
+     "Feature":"PartPayment  Credit Sales,Purchase",
+    "startup":"",
+    "standard":"✔ ",
+    "Suprem":"✔ "
+    },    {
+     "Feature":"Voucher Attachments",
+    "startup":"",
+    "standard":" ",
+    "Suprem":"✔ "
+    },    {
+     "Feature":"Enable Only Debitors In Sales",
+    "startup":"",
+    "standard":"✔ ",
+    "Suprem":"✔ "
+    },    {
+     "Feature":"Enable Only Debitors In Sales",
+    "startup":"",
+    "standard":"✔ ",
+    "Suprem":"✔ "
+    },    {
+     "Feature":"RouteWiseCustomers Management",
+    "startup":"",
+    "standard":" ",
+    "Suprem":"✔ "
+    },    {
+     "Feature":"SMS Configuration",
+    "startup":"",
+    "standard":" ",
+    "Suprem":"✔ "
+    },    {
+     "Feature":"Email Configuration",
+    "startup":"",
+    "standard":" ",
+    "Suprem":"✔ "
+    },    {
+     "Feature":"Custom FeatureMaster",
+    "startup":"",
+    "standard":" ",
+    "Suprem":"✔ "
+    },    {
+     "Feature":"Enable FreeQty",
+    "startup":"✔",
+    "standard":"✔ ",
+    "Suprem":"✔ "
+    },    {
+        "Feature":"Enable Discount%",
+       "startup":"✔ ",
+       "standard":"✔ ",
+       "Suprem":"✔ "
+       },    {
+        "Feature":"Enable DiscountAmount",
+       "startup":"✔ ",
+       "standard":"✔ ",
+       "Suprem":"✔ "
+       },    {
+        "Feature":"Enable Party Last Price",
+       "startup":" ",
+       "standard":"✔ ",
+       "Suprem":"✔ "
+       },     {
+        "Feature":"Product Substitute",
+       "startup":"",
+       "standard":"✔ ",
+       "Suprem":"✔ "
+       },    {
+        "Feature":"Service Master",
+       "startup":"",
+       "standard":"✔ ",
+       "Suprem":"✔ "
+       },    {
+        "Feature":"Custom Reports",
+       "startup":"",
+       "standard":" ",
+       "Suprem":"✔ "
+       },    {
+        "Feature":"Custom DashBoard",
+       "startup":"",
+       "standard":"✔ ",
+       "Suprem":"✔ "
+       },    {
+        "Feature":"Product Group",
+       "startup":"✔ ",
+       "standard":"✔ ",
+       "Suprem":"✔ "
+       },    {
+        "Feature":"Product Company",
+       "startup":"✔ ",
+       "standard":"✔ ",
+       "Suprem":"✔ "
+       },    {
+        "Feature":"Unit Creat",
+       "startup":"✔ ",
+       "standard":"✔ ",
+       "Suprem":"✔ "
+       },    {
+        "Feature":"E-Invoce",
+       "startup":"",
+       "standard":" ",
+       "Suprem":"✔ "
+       },    {
+        "Feature":"E-WayBill",
+       "startup":"",
+       "standard":" ",
+       "Suprem":"✔ "
+        },    {
+          "Feature":"Pricelist-DateWise",
+         "startup":"",
+         "standard":"✔ ",
+         "Suprem":"✔ "
+          }
+   
 ]
