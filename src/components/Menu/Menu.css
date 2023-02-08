@@ -1,0 +1,98 @@
+.start{
+    background-color: red;
+    min-height: 100vh;
+    text-decoration: none;
+}
+.itemimgsgas{
+  width: 50px;
+  margin: 5px;
+}
+.description{
+  word-wrap: break-word;
+}
+
+.Retail{
+    background: linear-gradient(to top,#2ecbe9,#128fc8,#00468b);
+    min-height: 100vh;
+    text-decoration: none;
+   color: #fff;
+   cursor: pointer;
+   padding-bottom: 90px;
+   border-radius: 10px;
+}
+.Retail li{
+  display: inline-block;
+  margin: 4px;
+  width: 300px;
+padding-top: 20px;
+}
+.Retail li:hover{
+  border: 1px solid #7eb7f0;
+  border-radius: 20px;
+}
+
+.Distribution{
+    background: linear-gradient(#0583d2,#4fd6f7,#b8e3ff);
+    min-height: 100vh;
+    color: #fff;
+    margin-bottom: 60px;
+    border-radius: 10px;
+}
+.Distribution li{
+    margin: 20px;
+    list-style: none;
+    display: inline-block;
+    
+}
+
+
+/* Manufacturing 1 */
+ .CaptionManufacturing{
+  text-align: center;
+}
+.Manufacturing{
+  background: #00a8e8;
+  height: 200vh;
+  color: #fff;  
+  border-radius: 10px;  
+}
+.Manufacturing li{
+  margin: 20px;
+  list-style: none;
+  display: inline-block;
+  width: 271px;
+  transition: 0.9s;
+}
+
+.Manufacturing li{
+  position: relative;
+  margin:2em;
+}
+/* Manufacturing 1 end */
+
+
+
+
+.retailtitle,.Distributiontitle,.Manufacturingtitle{
+  text-decoration: none;
+}
+.links-img{
+  width: 50px;
+}
+.link{
+  background: #fff; 
+  box-shadow: 0 0 8px 0 #ddd;
+  height: 150px;
+}
+.teximg-link .retailtitle{
+  padding: 50px;
+}
+.teximg-link{
+  padding: 50px;
+}
+.retailtitle,.Distributiontitle,.Manufacturingtitle{
+  font-size: 21px;
+  text-transform: uppercase;
+  font-weight: 500;
+}
+  /* menu end */

@@ -1,16 +1,16 @@
 import './App.css';
 import React from 'react';
-import Contact from './components/Contact';
-import Navbar  from './components/Navbar';
-import Products from './components/Products';
+import Contact from './components/Contact/Contact';
+import Navbar  from './components/NavBar/Navbar';
+import Products from './components/Price/Products';
 import {BrowserRouter , Routes, Route  } from "react-router-dom";
-import Service from './components/Service2';
-import Download from './components/Download';
-import Home from './components/Home';
-import Menu from './components/Menu';
-import Footer from './components/Footer';
-import Edition from './components/Edition';
-import Banner from './components/Banner';
+import Service from './components/Service/Service';
+import Download from './components/Download/Download';
+import Home from './components/Menu/Home';
+import Menu from './components/Menu/Menu';
+import Footer from './components/Price/Footer';
+import Edition from './components/Price/Edition';
+import Banner from './components/Banner/Banner';
 function App() {
 
   return (

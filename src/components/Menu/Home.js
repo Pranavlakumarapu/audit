@@ -2,7 +2,7 @@
 import React from "react";
 import Menulist from './Menulist'
 import {useParams,useLocation  } from 'react-router-dom';
-import './Home.css';
+import './Menu.css';
 
 export default function Home() {
   
