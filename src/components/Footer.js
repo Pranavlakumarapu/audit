@@ -4,10 +4,9 @@ import React, { useState, useEffect } from 'react'
 
 const styles = {
   container: {
-    position: 'fixed',
     bottom: 0,
     width: '100%',
-    height: '60px',
+    height: `auto`,
     background: '#333',
     color: 'white',
     display: 'flex',

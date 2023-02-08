@@ -13,12 +13,12 @@
 
 .Retail{
     background: linear-gradient(to top,#2ecbe9,#128fc8,#00468b);
-    min-height: 100vh;
+    /* min-height: 100vh; */
     text-decoration: none;
    color: #fff;
    cursor: pointer;
-   padding-bottom: 90px;
-   border-radius: 10px;
+    padding-bottom: 1px;
+  /* border-radius: 10px; */
 }
 .Retail li{
   display: inline-block;
@@ -33,10 +33,9 @@ padding-top: 20px;
 
 .Distribution{
     background: linear-gradient(#0583d2,#4fd6f7,#b8e3ff);
-    min-height: 100vh;
+    /* height: auto; */
     color: #fff;
-    margin-bottom: 60px;
-    border-radius: 10px;
+    padding-bottom: 1px;
 }
 .Distribution li{
     margin: 20px;
@@ -52,9 +51,9 @@ padding-top: 20px;
 }
 .Manufacturing{
   background: #00a8e8;
-  height: 200vh;
+  /* height: 200vh; */
   color: #fff;  
-  border-radius: 10px;  
+  padding-bottom: 1px;  
 }
 .Manufacturing li{
   margin: 20px;
@@ -92,8 +91,10 @@ padding-top: 20px;
   font-weight: 500;
 }
 .ee{
-  
     max-width: 650px;
-
+}
+.links{
+ padding-top: 100px;
+ margin-bottom: 10px;
 }
   /* menu end */

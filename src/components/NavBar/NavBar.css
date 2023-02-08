@@ -16,11 +16,6 @@
   }
   .navbar{
     background: #fff;
-    position: relative;
-    top: 0;
-    right: 0;
-    left: 0;
-    z-index: 1030;
   }
   .bar1 {
     width: 35px;

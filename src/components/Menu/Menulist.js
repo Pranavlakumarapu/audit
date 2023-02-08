@@ -1,4 +1,5 @@
 import React from 'react'
+import Banner from '../Banner/Banner';
 import arr from './data.json'
 
 export default function Menulist(props) {
@@ -18,8 +19,10 @@ export default function Menulist(props) {
     Captiondec = `Distribution refers to the process of distributing goods and products to various locations, such as retail stores, wholesalers, or directly to customers. In the context of Auditusierp software, it may refer to the distribution of financial data and reports to stakeholders, or the distribution of inventory and supply chain information to different departments within a company. The software aims to streamline and automate the distribution process, making it more efficient and effective.`;
       
  }
+
   return (
     <div>
+       <Banner/>
 <div className='container'>
 
 

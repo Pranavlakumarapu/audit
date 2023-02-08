@@ -13,7 +13,7 @@ export default class Navbar extends Component {
     return (
       <div>
         <div>
-      <nav className="navbar navbar-expand-lg">
+      <nav className="navbar fixed-top navbar-expand-lg">
 <div className="container">
       <Link to='/'  className="navbar-brand navs active"> <img src='/images/auditlogo.png' alt=""></img> </Link>
       <button onClick={ () => { this.setState({show: !this.state.show})}} className="navbar-toggler border border-info  text-info menufornavbar" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" 
