@@ -1,4 +1,22 @@
 
+.download-body{
+    background: #f1f1f1;
+    
+    }
+    .download2{
+        box-sizing: border-box;
+
+    }
+    .downloadbox{
+      
+        float:left;
+        width: auto; /* three boxes (use 25% for four, and 50% for two, etc) */
+        padding: 20px;
+        background-color:  #62b1de;
+        margin: 5px;
+        
+    }
+/* 
 .rar{
     border-style: solid;
     border-color: #0A4F88;
@@ -52,4 +70,4 @@ padding-bottom: 90px;
     font-size: 20px;
     font-weight: 700px;
     color: #128fc8;
-}
+}  */
