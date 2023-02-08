@@ -29,7 +29,7 @@ export default function Menulist(props) {
    <center><h2 className={cap}>
     {props.passData}
     </h2></center>
-   <center> <p> {Captiondec}</p></center>
+  <p > {Captiondec}</p>
 
 <ul>
 <div className="container listretails">

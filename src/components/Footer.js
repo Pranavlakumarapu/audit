@@ -2,19 +2,7 @@
 import React, { useState, useEffect } from 'react'
 
 
-const styles = {
-  container: {
-    bottom: 0,
-    width: '100%',
-    height: `auto`,
-    background: '#333',
-    color: 'white',
-    display: 'flex',
-    alignItems: 'center',
-    justifyContent: 'center',
-    textAlign: 'center'
-  }
-}
+
 export default function Footer() {
         
   const [time, setTime] = useState(new Date().toLocaleTimeString());
@@ -25,9 +13,11 @@ export default function Footer() {
 
 
   return (
-    <div style={styles.container} > 
+    <footer>
+    <div  > 
       Copyright ©  {new Date().getFullYear()}  IPCA Software Solutions Private Limited {time}
     </div>
+    </footer>
   );
 }
 

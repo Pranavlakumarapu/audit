@@ -1,13 +1,11 @@
-/* contact form dropdown retail manufacturing distibution start */
+
 
 
  .contactdropdown{
    border: 1px solid rgb(214, 208, 208);
 border-radius: 5px;
  }
- /* contact form dropdown retail manufacturing distibution start end*/
 
- /* Contact button start buttons are send and reset start */
 
  .contactbutton1{
    margin: 30px;
@@ -27,13 +25,13 @@ border-radius: 5px;
    color: #339DFF;
    box-shadow: 0 4px 4px rgba(83, 100, 255, 0.32);
  }
-  /* Contact button start buttons are send and reset end */
+ 
 
   .contactbox{
    padding-bottom: 10px;
   }
 
-  /* 10 digits verifaction start */
+ 
   #phone{
    outline: 0;
   }
@@ -43,4 +41,4 @@ border-radius: 5px;
   #phone:focus:invalid{
    border-color:  red;
  }
-    /* 10 digits verifaction edn*/
+     
