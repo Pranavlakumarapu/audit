@@ -2,6 +2,21 @@ import React from 'react'
 import './Download.css'
 
 export default function Download() {
+
+  var Downloadfiles = [
+    {
+      title: "Auditsierp18.5.59",
+      titleimag: "imgpath",
+      Download_link:"path"
+    },
+    {
+      title: "Mysql",
+      titleimag: "imgpath",
+      Download_link:"path"
+    }
+    
+  ]
+  
   return (
     <div className='download-body'>
 {/* <br/><br/>
