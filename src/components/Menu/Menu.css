@@ -76,23 +76,24 @@ padding-top: 20px;
 .retailtitle,.Distributiontitle,.Manufacturingtitle{
   text-decoration: none;
 }
+
 .links-img{
   width: 50px;
 }
 .link{
   background: #fff; 
   box-shadow: 0 0 8px 0 #ddd;
-  height: 150px;
-}
-.teximg-link .retailtitle{
-  padding: 50px;
-}
-.teximg-link{
-  padding: 50px;
+  height: 65px;
+  
 }
 .retailtitle,.Distributiontitle,.Manufacturingtitle{
-  font-size: 21px;
+  font-size: 16px;
   text-transform: uppercase;
   font-weight: 500;
+}
+.ee{
+  
+    max-width: 650px;
+
 }
   /* menu end */

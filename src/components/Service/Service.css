@@ -1,4 +1,55 @@
+.servicename{
+    text-align: center;  
+}
+.servicetitle{
+text-align: center;
+margin-bottom: 20px;    
+color: rgb(72, 142, 218);
+
+}
 .servicebody{
+    margin: 10px;
+    margin-bottom: 700px;
+}
+.main{
+    margin-bottom: 20px;
+    background-color: rgb(50, 129, 214);
+    color: white;
+    border-radius: 20px;
+    padding: 20px;
+    transition: 0.5s;
+    font-size: 16px;
+    box-shadow: 8px 8px rgb(132, 179, 225);
+    
+}
+.main:hover{
+    scale: 1.1;
+    background: rgba(131, 131, 128, 0.976);   
+     box-shadow: 8px 8px rgb(62, 62, 63);
+}
+@media (hover:hover){
+    .main:hover{
+        scale: 1.1;
+        background: rgba(131, 131, 128, 0.976);   
+         box-shadow: 8px 8px rgb(62, 62, 63);
+    }
+}
+@media (hover:none){
+    .main{
+        background: rgba(131, 131, 128, 0.976);   
+         box-shadow: 8px 8px rgb(62, 62, 63);
+    }
+}
+.main:hover i{
+    rotate: 360deg;
+}
+.main i{
+    transition: 0.5s;
+}
+.servicebody{
+    height: 100vh;
+}
+/* .servicebody{
     background: linear-gradient(#00468b,#2ecbe9,#128fc8) !important;
     height: 200vh;
 }
@@ -70,4 +121,4 @@
 }
 
 
-
+ */

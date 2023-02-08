@@ -10,7 +10,7 @@ const {type} =useParams();
 const location = useLocation();
 
 
-const { data } = location.state && location.state.data ? location.state : { data:{name: "start"} };
+const { data } = location.state && location.state.data ? location.state : { data:{name: "Retail"} };
 
   return (
     <div className={data.name}> 

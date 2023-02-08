@@ -73,7 +73,7 @@
     "Suprem":"✔ "
     },
       {
-     "Feature":"BatchWise Wise Stock",
+     "Feature":"BatchWise Stock",
     "startup":"",
     "standard":"✔ ",
     "Suprem":"✔ "
@@ -97,13 +97,13 @@
     "Suprem":"✔ "
     },
         {
-     "Feature":"MultiUnit",
+     "Feature":"Multi Unit",
     "startup":"",
     "standard":"✔ ",
     "Suprem":"✔ "
     },
         {
-     "Feature":"SubLedger",
+     "Feature":"Sub Ledger",
     "startup":"",
     "standard":"✔ ",
     "Suprem":"✔ "
@@ -134,7 +134,7 @@
     "standard":"✔ ",
     "Suprem":"✔ "
     },    {
-     "Feature":"PartPayment  Credit Sales,Purchase",
+     "Feature":"Part Payment Credit Sales,Purchase",
     "startup":"",
     "standard":"✔ ",
     "Suprem":"✔ "

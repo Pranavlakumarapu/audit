@@ -11,7 +11,7 @@ export default function Edition() {
 
         <table className='container'>
   <tr className="container ">
-    <th className='edition-feature'>Feature Name</th>
+    <th className='edition-feature'>Feature</th>
     <th>Startup</th>
     <th>Standard</th>
     <th>Suprem</th>

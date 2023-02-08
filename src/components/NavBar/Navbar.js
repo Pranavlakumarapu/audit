@@ -13,10 +13,7 @@ export default class Navbar extends Component {
     return (
       <div>
         <div>
-        {/* <div className='contactnumber'>
-          <marquee>Contact: 91+ 91-8204-6472</marquee>
-        </div> */}
-   <nav className="navbar navbar-expand-lg">
+      <nav className="navbar navbar-expand-lg">
 <div className="container">
       <Link to='/'  className="navbar-brand navs active"> <img src='/images/auditlogo.png' alt=""></img> </Link>
       <button onClick={ () => { this.setState({show: !this.state.show})}} className="navbar-toggler border border-info  text-info menufornavbar" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" 
@@ -35,7 +32,8 @@ export default class Navbar extends Component {
           </div>
     </div>
  </nav>
-      </div>
+   </div>
+  
       </div>
     )
   }
