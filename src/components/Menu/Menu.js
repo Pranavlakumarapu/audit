@@ -17,7 +17,7 @@ export default function Menu() {
 <div className='teximg-link'>      
 
 <Link   to="/" state={{ data: { name: "Retail" } }} className="retailtitle">
-  <img alt='' src='/images/retailtitleimg.png' className='links-img'/> Retail</Link>
+  <img alt='' src='/images/retailtitleimg.png' className='links-img'/> <span className='retailname'>Retail</span></Link>
 </div>
     </Link>
     </div>
@@ -27,7 +27,7 @@ export default function Menu() {
 <div className='teximg-link'>      
 
 <Link   to="/" state={{ data:{name: "Distribution"} }} className="Distributiontitle">
-<img alt='' src='/images/distribution.png' className='links-img'/> Distribution</Link>
+<img alt='' src='/images/distribution.png' className='links-img'/> <span className='retailname'>Distribution</span></Link>
 </div>
     </Link>
     </div>
@@ -38,7 +38,7 @@ export default function Menu() {
 <div className='teximg-link'>      
 
 <Link to="/" state={{ data:{name: "Manufacturing"} }} className="Manufacturingtitle">
-<img alt='' src='/images/manufacture.png' className='links-img'/> Manufacturing</Link>
+<img alt='' src='/images/manufacture.png' className='links-img'/> <span className='retailname'>Manufacturing</span></Link>
 </div>
     </Link>
     </div>

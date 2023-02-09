@@ -72,7 +72,12 @@
 /* Manufacturing 1 end */
 
 
-
+.retailname{
+  color: black;
+}
+.itemname{
+  color: #fff;
+}
 
 .retailtitle,.Distributiontitle,.Manufacturingtitle{
   text-decoration: none;
@@ -90,6 +95,7 @@
 .retailtitle,.Distributiontitle,.Manufacturingtitle{
   font-size: 16px;
   text-transform: uppercase;
+  color: #fff;
   font-weight: 500;
 }
 .ee{

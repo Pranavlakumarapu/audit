@@ -5,19 +5,7 @@
     max-height: calc(100vh - 20px);
     overflow-y: scroll;
     }
-    .download2{
-        box-sizing: border-box;
-
-    }
-    .downloadbox{
-      
-        float:left;
-        width: auto; /* three boxes (use 25% for four, and 50% for two, etc) */
-        padding: 20px;
-        background-color:  #62b1de;
-        margin: 5px;
-        
-    }
+ 
 /* 
 .rar{
     border-style: solid;

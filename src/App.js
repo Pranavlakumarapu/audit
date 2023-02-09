@@ -11,6 +11,7 @@ import Menu from './components/Menu/Menu';
 import Footer from './components/Footer';
 import Edition from './components/Price/Edition';
 import Banner from './components/Banner/Banner';
+import Productmenu from './components/Menu/Productmenu';
 function App() {
 
   return (
@@ -29,6 +30,7 @@ function App() {
         <Route path='/Download' element={<Download/>}></Route>
         <Route path='/Edition' element={<Edition/>}></Route>
         <Route path='/Banner' element={<Banner/>}></Route>
+        <Route path='/Productmenu' element={<Productmenu/>}></Route>
          </Routes>
       </div>
       

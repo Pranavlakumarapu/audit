@@ -50,7 +50,7 @@ export default function Download() {
       {
 
   Downloadfiles.map((value,index)=>{
-    return       <div key={index} class="card " style={{ width: '15rem',display:'inline-flex',margin:'10px'}} >
+    return       <div key={index} class="card " style={{ width: '18rem',height:'10rem',display:'inline-flex',margin:'10px'}} >
 
   <div class="card-body">
     <h5 class="card-title">{value.title} <img  src={value.titleimag} alt=''/></h5>

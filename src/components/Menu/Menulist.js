@@ -1,8 +1,17 @@
-import React from 'react'
+import React ,{ useState }from 'react'
 import Banner from '../Banner/Banner';
-import arr from './data.json'
+import Download from '../Download/Download';
+import arr from './data.json';
+import { Link , useParams,useLocation  } from 'react-router-dom';
+
 
 export default function Menulist(props) {
+
+  const {type} =useParams();
+const location = useLocation();
+
+
+const { data } = location.state && location.state.data ? location.state : { data:{name: "start"} };
 
   let cap = "Caption" + props.passData;
   let Captiondec="";
@@ -19,28 +28,24 @@ export default function Menulist(props) {
     Captiondec = `Distribution refers to the process of distributing goods and products to various locations, such as retail stores, wholesalers, or directly to customers. In the context of Auditusierp software, it may refer to the distribution of financial data and reports to stakeholders, or the distribution of inventory and supply chain information to different departments within a company. The software aims to streamline and automate the distribution process, making it more efficient and effective.`;
       
  }
-
   return (
     <div>
        <Banner/>
 <div className='container'>
-
-
    <center><h2 className={cap}>
     {props.passData}
     </h2></center>
-  <p > {Captiondec}</p>
-
+  <p> {Captiondec}</p>
 <ul>
 <div className="container listretails">
   <div className="row">
     <div className="col-sm">
        {arr.map((item, index) => {
         if (item.type == props.passData) {
-          return <li key={index} className="container-sm">
-             <img src={item.img} alt='' className='itemimgsgas'/> {item.name}   
+          return <Link  to="/Productmenu" state={{ data:item.name }} > <li key={index} className="container-sm">
+             <img src={item.img} alt='' className='itemimgsgas'/> <span className='itemname'>{item.name}</span>
           <div className='description'>{item.description}</div>
-          </li>;
+          </li> </Link>;
           
         }
     
