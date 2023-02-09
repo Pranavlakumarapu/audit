@@ -14,15 +14,15 @@ export default function Download() {
     },
     {
       title: "Mysql",
-      titleimag: "imgpath",
-      Download_link:"/downloads/Auditusierp 18.5.5.9.rar",
-      Date:"2022-12-12"
+      titleimag: "/images/download-new.gif",
+      Download_link:"/downloads/mysql 8.0.31.rar",
+      Date:"Rel-2022-12-12"
     }
     ,  {
-      title: "Auditsierp18.5.59",
-      titleimag: "/images/download-new.gif",
+      title: "Report Designer(Beta)",
+      titleimag: "",
       Download_link:"/downloads/Auditusierp 18.5.5.9.rar",
-      Date:"Rel-2022-12-12"
+      Date:"Rel-2021-07-20"
     },
     {
       title: "Mysql",
