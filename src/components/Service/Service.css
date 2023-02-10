@@ -43,3 +43,6 @@ color: rgb(72, 142, 218);
 .main i{
     transition: 0.5s;
 }
+.servicebody{
+    margin: 15px;
+}

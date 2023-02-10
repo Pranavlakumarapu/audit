@@ -117,14 +117,14 @@
 
 /* pricing dropdown end */
 .boxa{
-  height: 700px;
+  height: 600px;
   margin: 1px;
 }
 .box1{
   background-color: #0A4F88;
   color: white;
   border-radius: 10px;
-  height: 700px;
+  height: 600px;
   margin: 1px;
   transition: 0.5s;
 }
@@ -135,7 +135,7 @@
   background-color: #28666e;
   color: white;
   border-radius: 10px;
-  height: 700px;
+  height: 600px;
   margin: 1px;
   transition: 0.5s;
 }

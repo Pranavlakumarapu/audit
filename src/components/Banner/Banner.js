@@ -21,7 +21,7 @@ class Banner extends Component {
     return (
 
       <Slider {...settings}>
-     <div className="container-fluid">
+     <div>
       <img alt="" src="/images/Banner1.png" className="bannerimage bannercomponent"/>
      </div>
      <div>

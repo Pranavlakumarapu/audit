@@ -27,18 +27,24 @@ const Contact = () => {
 
   return (
   <div>
-     <div className='contactbox'>
+   
+
+
+
+     <div className="container">
+  <div classclassName="row">
+    <div classclassName="col-sm">
+    <div className='contactbox'>
      <div className="container  py-5 ">
       <div className="row">
         <div className="col-lg-5 col-md-8 mx-auto shadow border bg-white p-4 rounded">
-          <h2 className="text-center fw-bold mb-3">Contact Us</h2>
+          <h2 className="text-center fw-bold mb-3">Contact Auditus-IERP</h2>
           <form name="google-sheet" onSubmit={handleSubmit} >
             <div id="form_alerts">
               {response ? <p>{response}</p> : null}
             </div>
 
             <div className="form-group mb-3">
-              <label htmlFor="Name" className="form-label">Name</label>
               <input
                 type="name"
                 id="name"
@@ -66,9 +72,8 @@ const Contact = () => {
 <option  value="manufacturing">Manufacturing</option>
 </select>
 </div>
-
+<br/>
             <div className="form-group mb-3">
-              <label htmlFor="Email" className="form-label">Email</label>
               <input
                 type="email"
                 id="email"
@@ -79,7 +84,6 @@ const Contact = () => {
               />
             </div>
             <div className="form-group mb-3">
-              <label htmlFor="Phone" className="form-label">PhoneNumber</label>
               <input
                 type="number"
                 id="phone"
@@ -92,8 +96,7 @@ const Contact = () => {
               />
             </div>
             <div className="form-group mb-3">
-              <label htmlFor="Phone" className="form-label">Pincode</label>
-              <input
+               <input
                 type="number"
                 id="pincode"  min="0" 
                 name="pincode"
@@ -103,7 +106,6 @@ const Contact = () => {
               />
             </div>
             <div className="form-group mb-3">
-              <label htmlFor="Address" className="form-label">City</label>
               <input
                 type="Address"
                 id="phonenumber"
@@ -130,6 +132,10 @@ const Contact = () => {
       </div>
     </div>
      </div>
+
+    </div>
+  </div>
+</div>
   </div>
   );
 };
