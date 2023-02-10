@@ -7,8 +7,6 @@ import { Link   } from 'react-router-dom';
 
 export default function Menulist(props) {
 
-
-
   let cap = "Caption" + props.passData;
   let Captiondec="";
   if (props.passData ==="Manufacturing"){
@@ -38,10 +36,8 @@ export default function Menulist(props) {
     <div className="col-sm">
        {arr.map((item, index) => {
         if (item.type == props.passData) {
-          return <Link  to={{
-            pathname: "/Productmenu",
-            state: { productData: item }
-          }}
+          return <Link  to= "/Productmenu"
+          state={{ productData: { product: item.name } }}
            > <li key={index} className="container-sm">
              <img src={item.img} alt='' className='itemimgsgas'/> <span className='itemname'>{item.name}</span>
           <div className='description'>{item.description}</div>

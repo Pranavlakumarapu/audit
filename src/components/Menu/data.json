@@ -18,7 +18,8 @@
         "type" : "Retail",
         "img" : "/images/supermarket.png",
         "name" : "SuperMarket",
-        "Product_Detials":[{"Product_title":"SuperMarket",
+        "Product_Detials":
+        [{"Product_title":"SuperMarket",
         "Product_tile_caption":"sdfsdfd",
         "product_sliderimgs":[
             {"simg1":"imppath"},

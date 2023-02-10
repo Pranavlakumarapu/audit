@@ -1,38 +1,40 @@
 import React from 'react';
 import Accordion from 'react-bootstrap/Accordion';
+import {useParams,useLocation  } from 'react-router-dom';
+import Productslist from './data.json';
+function Productmenu() {
 
-function Productmenu(props) {
-  const productData = props.productData;
+  const {type} =useParams();
+  const location = useLocation();
+  const { productData } = location.state && location.state.productData ? location.state : { productData:{product: " "} };
+//  const filteredData = Productslist.filter(item => item.name == productData.product);
+
+  
+ const filteredArray = Productslist.filter(function(obj) {
+  if (obj.name === productData.product) {
+    return true;
+  }
+}).map(function(obj) {
+  return obj.Product_Detials;
+});
+
+console.log(filteredArray);
+
   return (
   <div> 
-       
-     <Accordion defaultActiveKey="0">
-      <Accordion.Item eventKey="0">
-        <Accordion.Header>Accordion Item #1{productData}</Accordion.Header>
-        <Accordion.Body>
-      
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-          eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
-          minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-          aliquip ex ea commodo consequat. Duis aute irure dolor in
-          reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-          pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
-          culpa qui officia deserunt mollit anim id est laborum.
-        </Accordion.Body>
-      </Accordion.Item>
-      <Accordion.Item eventKey="1">
-        <Accordion.Header>Accordion Item #2</Accordion.Header>
-        <Accordion.Body>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-          eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
-          minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-          aliquip ex ea commodo consequat. Duis aute irure dolor in
-          reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-          pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
-          culpa qui officia deserunt mollit anim id est laborum.
-        </Accordion.Body>
-      </Accordion.Item>
-    </Accordion>
+       <h1>{productData.product}</h1>
+{
+filteredArray.map((f, index)=>
+{
+  <div key={index}>
+  <li> {f.Product_title} </li>
+  <li> {f.Product_tile_caption} </li>
+  <li> {f.product_dec} </li>
+  <li> {f.product_featureCaption} </li>
+  </div>
+})
+
+}
     </div>
  
   );

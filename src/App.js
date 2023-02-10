@@ -15,11 +15,14 @@ import Productmenu from './components/Menu/Productmenu';
 import NoPage from './components/Errorpage';
 import Sidecontactform from './components/Sidecontactform/Sidecontactform';
 
+
 function App() {
 
   return (
  <div>
+
        <BrowserRouter>
+       
       <Navbar/>
       <Menu/>
      
