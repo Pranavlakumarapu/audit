@@ -2,16 +2,12 @@ import React ,{ useState }from 'react'
 import Banner from '../Banner/Banner';
 import Download from '../Download/Download';
 import arr from './data.json';
-import { Link , useParams,useLocation  } from 'react-router-dom';
+import { Link   } from 'react-router-dom';
 
 
 export default function Menulist(props) {
 
-  const {type} =useParams();
-const location = useLocation();
 
-
-const { data } = location.state && location.state.data ? location.state : { data:{name: "start"} };
 
   let cap = "Caption" + props.passData;
   let Captiondec="";
@@ -42,11 +38,14 @@ const { data } = location.state && location.state.data ? location.state : { data
     <div className="col-sm">
        {arr.map((item, index) => {
         if (item.type == props.passData) {
-          return <Link  to="/Productmenu" state={{ data:item.name }} > <li key={index} className="container-sm">
+          return <Link  to={{
+            pathname: "/Productmenu",
+            state: { productData: item }
+          }}
+           > <li key={index} className="container-sm">
              <img src={item.img} alt='' className='itemimgsgas'/> <span className='itemname'>{item.name}</span>
           <div className='description'>{item.description}</div>
           </li> </Link>;
-          
         }
     
       })}

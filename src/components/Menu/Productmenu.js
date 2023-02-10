@@ -2,12 +2,13 @@ import React from 'react';
 import Accordion from 'react-bootstrap/Accordion';
 
 function Productmenu(props) {
-    let cap = "Caption" + props.data;
+  const productData = props.productData;
   return (
-  
-    <Accordion defaultActiveKey="0">
+  <div> 
+       
+     <Accordion defaultActiveKey="0">
       <Accordion.Item eventKey="0">
-        <Accordion.Header>Accordion Item #1{cap}</Accordion.Header>
+        <Accordion.Header>Accordion Item #1{productData}</Accordion.Header>
         <Accordion.Body>
       
           Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
@@ -32,6 +33,8 @@ function Productmenu(props) {
         </Accordion.Body>
       </Accordion.Item>
     </Accordion>
+    </div>
+ 
   );
 }
 
