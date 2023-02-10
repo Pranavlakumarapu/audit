@@ -36,7 +36,7 @@
 
 
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 680px) {
   .columns {
     width: 100%;
   }
@@ -67,7 +67,7 @@
   text-transform: uppercase;
 } 
 /* pricing dropdown start */
-
+dfgdfgfd
 
 
 
@@ -117,14 +117,14 @@
 
 /* pricing dropdown end */
 .boxa{
-  height: 600px;
+  height: 680px;
   margin: 1px;
 }
 .box1{
   background-color: #0A4F88;
   color: white;
   border-radius: 10px;
-  height: 600px;
+  height: 680px;
   margin: 1px;
   transition: 0.5s;
 }
@@ -135,7 +135,7 @@
   background-color: #28666e;
   color: white;
   border-radius: 10px;
-  height: 600px;
+  height: 680px;
   margin: 1px;
   transition: 0.5s;
 }
