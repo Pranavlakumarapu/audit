@@ -1,6 +1,9 @@
  import {Link} from 'react-router-dom'
 import './NavBar.css'
-import React, { Component} from 'react'
+import React, { Component } from 'react';
+import Button from 'react-bootstrap/Button';
+import Offcanvas from 'react-bootstrap/Offcanvas';
+import Sidecontactform from '../Sidecontactform/Sidecontactform';
 
 
 export default class Navbar extends Component {
@@ -11,7 +14,7 @@ export default class Navbar extends Component {
     }
   }
     render() {
-    
+
     return (
       <div>
         <div>
@@ -30,6 +33,7 @@ export default class Navbar extends Component {
           <Link to='/Service' className="nav-link    navs  page-scroll">Services</Link>
              <Link to='/Contact' className="nav-link navs  page-scroll">Contact</Link>
              <Link to='/Download' className="nav-link navs  page-scroll">Download</Link>
+             <Sidecontactform/>
           </div>
           </div>
     </div>

@@ -13,6 +13,7 @@ import Edition from './components/Price/Edition';
 import Banner from './components/Banner/Banner';
 import Productmenu from './components/Menu/Productmenu';
 import NoPage from './components/Errorpage';
+import Sidecontactform from './components/Sidecontactform/Sidecontactform';
 
 function App() {
 
@@ -27,12 +28,13 @@ function App() {
         <Routes>
         <Route path='/'  element={<Home/>}></Route>
         <Route path='/Products' element={<Products/>}></Route>
-        <Route path='/Contact' element={<Contact/>}></Route>
+        <Route path='/Contact' element={<Contact name="Welcome To Auditsierp"/>}></Route>
         <Route path='/Service' element={<Service/>}></Route>
         <Route path='/Download' element={<Download/>}></Route>
         <Route path='/Edition' element={<Edition/>}></Route>
         <Route path='/Banner' element={<Banner/>}></Route>
         <Route path='/Productmenu' element={<Productmenu/>}></Route>
+        <Route path='/Sidecontactform' element={<Sidecontactform/>}></Route>
         <Route path="*" element={<NoPage />} />
          </Routes>
       </div>

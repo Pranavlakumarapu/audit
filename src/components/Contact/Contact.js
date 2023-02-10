@@ -2,7 +2,7 @@
 import React, { useState } from 'react';
 import './Contact.css'
 
-const Contact = () => {
+const Contact = (props) => {
   const [response, setResponse] = useState(null);
 /* jj */
   const handleSubmit = (event) => {
@@ -26,19 +26,11 @@ const Contact = () => {
   };
 
   return (
-  <div>
-   
+  <div className='contact_page'>
 
-
-
-     <div className="container">
-  <div classclassName="row">
-    <div classclassName="col-sm">
-    <div className='contactbox'>
-     <div className="container  py-5 ">
-      <div className="row">
-        <div className="col-lg-5 col-md-8 mx-auto shadow border bg-white p-4 rounded">
-          <h2 className="text-center fw-bold mb-3">Contact Auditus-IERP</h2>
+ 
+        <div className="shadow border bg-white p-4 rounded">
+          <h2 className="text-center fw-bold mb-3">{props.name}</h2>
           <form name="google-sheet" onSubmit={handleSubmit} >
             <div id="form_alerts">
               {response ? <p>{response}</p> : null}
@@ -46,6 +38,7 @@ const Contact = () => {
 
             <div className="form-group mb-3">
               <input
+              autoFocus 
                 type="name"
                 id="name"
                 name="name"
@@ -95,16 +88,7 @@ const Contact = () => {
                 required
               />
             </div>
-            <div className="form-group mb-3">
-               <input
-                type="number"
-                id="pincode"  min="0" 
-                name="pincode"
-                className="form-control"
-                placeholder="Enter your phone"
-                required
-              />
-            </div>
+        
             <div className="form-group mb-3">
               <input
                 type="Address"
@@ -112,6 +96,16 @@ const Contact = () => {
                 name="city"
                 className="form-control"
                 placeholder="Enter your City"
+                required
+              />
+            </div>
+            <div className="form-group mb-3">
+               <input
+                type="number"
+                id="pincode"  min="0" 
+                name="pincode"
+                className="form-control"
+                placeholder="Enter your Pincode"
                 required
               />
             </div>
@@ -130,13 +124,9 @@ const Contact = () => {
           </form>
         </div>
       </div>
-    </div>
-     </div>
 
-    </div>
-  </div>
-</div>
-  </div>
+
+
   );
 };
 
