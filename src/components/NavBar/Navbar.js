@@ -1,6 +1,7 @@
  import {Link} from 'react-router-dom'
 import './NavBar.css'
-import React, { Component } from 'react'
+import React, { Component} from 'react'
+
 
 export default class Navbar extends Component {
   constructor(){
@@ -9,7 +10,8 @@ export default class Navbar extends Component {
       show: true,
     }
   }
-  render() {
+    render() {
+    
     return (
       <div>
         <div>
