@@ -11,9 +11,7 @@
     color:#0A4F88;
     transition: 0.5s;
   }
-  .navs:hover{
-    color: #0A4F88; 
-  }
+
   .navbar{
     background: #fff;
     transition: 0.5s;
@@ -111,4 +109,8 @@
     height: auto;
     font-weight: 700;
   }
+  
+
+
+
   

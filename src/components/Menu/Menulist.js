@@ -24,7 +24,8 @@ export default function Menulist(props) {
  }
   return (
     <div>
-       <Banner/>
+    
+       <Banner passData={props.passData}/>
 <div className='container'>
    <center><h2 className={cap}>
     {props.passData}

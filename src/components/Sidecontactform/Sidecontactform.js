@@ -2,8 +2,6 @@ import React, { useState } from 'react';
 import Button from 'react-bootstrap/Button';
 import Offcanvas from 'react-bootstrap/Offcanvas';
 import Contact from '../Contact/Contact'
-
-
 export default function Sidecontactform() {
     const [show, setShow] = useState(false);
 

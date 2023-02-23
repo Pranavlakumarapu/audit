@@ -27,6 +27,7 @@
   display: inline-block;
   margin: 10px;
   width: auto;
+transition: 0.5s;
 /* padding-top: 20px; */
 }
 .Retail li:hover{

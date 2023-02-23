@@ -1,17 +1,6 @@
 [
 
-    {
-        "id" : 1,
-        "type" : "start",
-        "img" : "/images/",
-        "name" : "GST Enable"
-    },
-    {
-        "id" : 2,
-        "type" : "start",
-        "img" : "/images/",
-        "name" : "E-Waybills"
-    },
+    
 
     {
         "id" : 3,
@@ -21,16 +10,13 @@
         "Product_Detials":
         [{"Product_title":"SuperMarket",
         "Product_tile_caption":"sdfsdfd",
-        "product_sliderimgs":[
-            {"simg1":"imppath"},
-            {"simg2":"imppath"},
-            {"simg3":"imppath"}],
         "product_dec":"sdfdfsf",
         "product_featureCaption":"Features at Glance",
+        "product_sliderimgs":["imppath1","imppath2","imppath3"],  
         "productlist":[{
-            "sp_img":"sdfsdfdf",
-            "sp_Title":"sdfsdfd",
-            "sp_dec":"sdfsdfd"
+            "sp_img":"spimgpath",
+            "sp_Title":"sptitle",
+            "sp_dec":"spdec"
         },
         {
             "sp_img":"sdfsdfdf",
@@ -46,12 +32,9 @@
         "name" : "Footwear" ,
         "Product_Detials":[{"Product_title":"Footwear",
         "Product_tile_caption":"sdfsdfd",
-        "product_sliderimgs":[
-            {"simg1":"imppath"},
-            {"simg2":"imppath"},
-            {"simg3":"imppath"}],
         "product_dec":"sdfdfsf",
         "product_featureCaption":"Features at Glance",
+        "product_sliderimgs":["imppath1","imppath2","imppath3"],
         "productlist":[{
             "sp_img":"sdfsdfdf",
             "sp_Title":"sdfsdfd",
@@ -72,20 +55,18 @@
         "Product_Detials":[{
         "Product_title":"Pharmacy",
         "Product_tile_caption":"Introducing the ultimate solution for your Pharmacy business accounting needs: Our Pharmacy Accounting Software",
-        "product_sliderimgs":[
-            {"simg1":"imppath"},
-            {"simg2":"imppath"},
-            {"simg3":"imppath"}],
+        "product_dec":"ddfdf",
         "product_story":"In conclusion, our Pharmacy Accounting Software is the perfect solution for managing your Pharmacy business efficiently and effectively. With its all-in-one solution, you can easily keep track of your finances, inventory, and sales, and ensure that your business stays compliant with GST regulations. Our software is user-friendly, making it easy for you to navigate and manage your business with ease. Don't miss out on this opportunity to streamline your operations and improve your financial performance. Contact us today to learn more about our software and how it can help your business grow.",
         "product_featureCaption":"Features at Glance",
+        "product_sliderimgs":["imppath1","imppath2","imppath3"],
         "productlist":[{
             "sp_img":"sdfsdfdf",
-            "sp_Title":"sdfsdfd",
+            "sp_Title":"simple",
             "sp_dec":"sdfsdfd"
         },
         {
             "sp_img":"sdfsdfdf",
-            "sp_Title":"sdfsdfd",
+            "sp_Title":"advance",
             "sp_dec":"sdfsdfd"
         }
         ]}]
@@ -97,12 +78,9 @@
         "name" : "Textile ",
         "Product_Detials":[{"Product_title":"Textile",
         "Product_tile_caption":"sdfsdfd",
-        "product_sliderimgs":[
-            {"simg1":"imppath"},
-            {"simg2":"imppath"},
-            {"simg3":"imppath"}],
-        "product_dec":"sdfdfsf",
+       "product_dec":"sdfdfsf",
         "product_featureCaption":"Features at Glance",
+        "product_sliderimgs":["imppath1","imppath2","imppath3"],
         "productlist":[{
             "sp_img":"sdfsdfdf",
             "sp_Title":"sdfsdfd",
@@ -121,14 +99,11 @@
         "type" : "Retail",
         "img" : "/images/garment.png",
         "name" : "Garment",
-        "Product_Detials":[{"Product_title":"Textile",
+        "Product_Detials":[{"Product_title":"Garment",
         "Product_tile_caption":"sdfsdfd",
-        "product_sliderimgs":[
-            {"simg1":"imppath"},
-            {"simg2":"imppath"},
-            {"simg3":"imppath"}],
         "product_dec":"sdfdfsf",
         "product_featureCaption":"Features at Glance",
+        "product_sliderimgs":["imppath1","imppath2","imppath3"],
         "productlist":[{
             "sp_img":"sdfsdfdf",
             "sp_Title":"sdfsdfd",
@@ -145,15 +120,47 @@
         "id" : 6,
         "type" : "Retail",
         "img" : "/images/retailshop.png",
-        "name" : "Retail Shop"
-       
+        "name" : "Retail Shop",
+        "Product_Detials":[{"Product_title":"Retail Shop",
+        "Product_tile_caption":"sdfsdfd",
+        "product_dec":"sdfdfsf",
+        "product_featureCaption":"Features at Glance",
+        "product_sliderimgs":["imppath1","imppath2","imppath3"],
+        "productlist":[{
+            "sp_img":"sdfsdfdf",
+            "sp_Title":"sdfsdfd",
+            "sp_dec":"sdfsdfd"
+        },
+        {
+            "sp_img":"sdfsdfdf",
+            "sp_Title":"sdfsdfd",
+            "sp_dec":"sdfsdfd"
+        }
+        ]}]
         
     },
     {
         "id" : 5,
         "type" : "Retail",
         "img" : "/images/rice.png",
-        "name" : "Kirana/Grocery"
+        "name" : "Kirana/Grocery",
+        "Product_Detials":[{"Product_title":"Retail Shop",
+        "Product_tile_caption":"sdfsdfd",
+        "product_dec":"sdfdfsf",
+        "product_featureCaption":"Features at Glance",
+        "product_sliderimgs":["imppath1","imppath2","imppath3"],
+        "productlist":[{
+            "sp_img":"sdfsdfdf",
+            "sp_Title":"sdfsdfd",
+            "sp_dec":"sdfsdfd"
+        },
+        {
+            "sp_img":"sdfsdfdf",
+            "sp_Title":"sdfsdfd",
+            "sp_dec":"sdfsdfd"
+        }
+        ]}]
+        
     },
     {
         "id" : 6,
@@ -184,7 +191,7 @@
         "id": 7,
         "type" : "Distribution",
         "img" : "/images/distributionPhrmacy.png",
-        "name" : "Pharmacy",
+        "name" : "sdfdf",
         "description" : "Pharmacy management can be a complex and time-consuming task, but with the right software solution, it can be streamlined and made more efficient. That's where Auditus-IERP comes in. Our state-of-the-art accounting software is designed specifically for pharmacies and is equipped with all the tools and features you need to manage your business more effectively."
     }, 
     {

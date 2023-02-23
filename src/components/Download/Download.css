@@ -1,11 +1,4 @@
 
-.download-body{
-    background: #f1f1f1;
-    min-height: 100vh;
-    max-height: calc(100vh - 20px);
-    overflow-y: scroll;
-    }
- 
 /* 
 .rar{
     border-style: solid;

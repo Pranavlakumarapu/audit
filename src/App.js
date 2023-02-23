@@ -12,7 +12,7 @@ import Footer from './components/Footer';
 import Edition from './components/Price/Edition';
 import Banner from './components/Banner/Banner';
 import Productmenu from './components/Menu/Productmenu';
-import NoPage from './components/Errorpage';
+import NoPage from './components/Error/Errorpage';
 import Sidecontactform from './components/Sidecontactform/Sidecontactform';
 
 
@@ -22,8 +22,7 @@ function App() {
  <div>
 
        <BrowserRouter>
-       
-      <Navbar/>
+       <Navbar/>
       <Menu/>
      
      

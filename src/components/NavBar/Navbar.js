@@ -1,9 +1,9 @@
  import {Link} from 'react-router-dom'
 import './NavBar.css'
 import React, { Component } from 'react';
-import Button from 'react-bootstrap/Button';
-import Offcanvas from 'react-bootstrap/Offcanvas';
+
 import Sidecontactform from '../Sidecontactform/Sidecontactform';
+
 
 
 export default class Navbar extends Component {
@@ -36,6 +36,7 @@ export default class Navbar extends Component {
              <Sidecontactform/>
           </div>
           </div>
+
     </div>
  </nav>
    </div>
