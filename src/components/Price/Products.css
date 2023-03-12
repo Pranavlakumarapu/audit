@@ -283,21 +283,8 @@ select::-ms-expand {
   margin-top: 35px;
   justify-content: center;
 }
-.table .btn button{
-  width: 80%;
-  height: 50px;
-  color: #fff;
-  font-size: 20px;
-  font-weight: 500;
-  border: none;
-  outline: none;
-  border-radius: 25px;
-  cursor: pointer;
-  transition: all 0.3s ease;
-}
-.table .btn button:hover{
-  border-radius: 5px;
-}
+
+
 .basic .features li::selection{
   background: #0583d2;
 }
@@ -306,38 +293,7 @@ select::-ms-expand {
 .basic .inner-area{
   background: #0583d2;
 }
-.basic .btn button{
-  border: 2px solid #0583d2;
-  background: #fff;
-  color: #0583d2;
-}
-.basic .btn button:hover{
-  background: #0583d2;
-  color: #fff;
-}
-.premium ::selection,
-.premium .price-area,
-.premium .inner-area,
-.premium .btn button{
-  background: #00b2ca;
-}
-.premium .btn button:hover{
-  background: #00b2ca;
-}
-.ultimate ::selection,
-.ultimate .price-area,
-.ultimate .inner-area{
-  background: #1aa7ec;
-}
-.ultimate .btn button{
-  border: 2px solid #1aa7ec;
-  color: #1aa7ec;
-  background: #fff;
-}
-.ultimate .btn button:hover{
-  background: #1aa7ec;
-  color: #fff;
-}
+
 .basic .package-name{
   background: #ffecb3;
 }

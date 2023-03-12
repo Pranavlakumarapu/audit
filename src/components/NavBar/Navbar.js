@@ -30,6 +30,7 @@ export default class Navbar extends Component {
     <div className= {this.state.show ? 'collapse navbar-collapse' : 'collapse navbar-collapse active'  } id="navbarNavAltMarkup">
         <div className="navbar-nav navs ms-auto ">
         <Link to='/Products' className="nav-link     navs  page-scroll">Pricing</Link> 
+        <Link to='/Support' className="nav-link     navs  page-scroll">Support</Link> 
           <Link to='/Service' className="nav-link    navs  page-scroll">Services</Link>
              <Link to='/Contact' className="nav-link navs  page-scroll">Contact</Link>
              <Link to='/Download' className="nav-link navs  page-scroll">Download</Link>

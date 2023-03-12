@@ -32,7 +32,6 @@ const slides = filteredData.length > 0 ? filteredData[0].slides : [];
         slides.map((slide, index) => (
           <div key={index}>
             <img alt="" src={slide} className="bannerimage bannercomponent"/>
-            <p>{slide}</p>
           </div>
         ))
       }

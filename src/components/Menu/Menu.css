@@ -84,14 +84,15 @@ transition: 0.5s;
 .retailtitle,.Distributiontitle,.Manufacturingtitle{
   text-decoration: none;
 }
-
+/* 
 .links-img{
   width: 50px;
-}
+} */
 .link{
   background: #fff; 
   box-shadow: 0 0 8px 0 #ddd;
   height: 65px;
+  padding: 10px;
   
 }
 .retailtitle,.Distributiontitle,.Manufacturingtitle{

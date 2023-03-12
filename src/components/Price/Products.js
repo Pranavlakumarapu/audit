@@ -112,6 +112,11 @@ export default function Products() {
     <center><h5 className='price-Standard'>Multi User(LAN) - ₹37,500 +18%GST</h5></center>
     <center><h5 className='price-Standard'>Dual User(LAN) - ₹37,500 +18%GST</h5></center>
 
+
+
+
+
+
       <ul className="features">
         <li className='price-Standards'>
         STANDARD Edition: The STANDARD edition is a step up from the STARTUP edition, offering more advanced features and greater functionality for growing businesses. This edition provides a comprehensive solution for businesses that need more control over their financial processes and want to take their operations to the next level. The STANDARD edition includes everything from accounting and billing, to advanced reporting and analysis tools, giving businesses the tools they need to succeed.          

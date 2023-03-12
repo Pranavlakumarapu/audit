@@ -14,7 +14,7 @@ import Banner from './components/Banner/Banner';
 import Productmenu from './components/Menu/Productmenu';
 import NoPage from './components/Error/Errorpage';
 import Sidecontactform from './components/Sidecontactform/Sidecontactform';
-
+import Support from './components/Support/Support';
 
 function App() {
 
@@ -37,6 +37,9 @@ function App() {
         <Route path='/Banner' element={<Banner/>}></Route>
         <Route path='/Productmenu' element={<Productmenu/>}></Route>
         <Route path='/Sidecontactform' element={<Sidecontactform/>}></Route>
+        <Route path='/Support' element={<Support/>}></Route>
+  
+
         <Route path="*" element={<NoPage />} />
          </Routes>
       </div>

@@ -46,24 +46,23 @@ export default function Download() {
   
   return (
     <div className='download-body' > 
-      <center><h3>Downloads</h3></center>
+      <center><h3 className='download-title'>Downloads</h3></center>
       {
 
-  Downloadfiles.map((value,index)=>{
-    return       <div key={index} class="card " style={{ width: '18rem',height:'10rem',display:'inline-flex',margin:'10px'}} >
+Downloadfiles.map((value,index)=>{
+  return       <div key={index} className="card " style={{ width: '18rem',height:'10rem',display:'inline-flex',margin:'10px'}} >
 
-  <div class="card-body">
-    <h5 class="card-title">{value.title} <img  src={value.titleimag} alt=''/></h5>
-    <h6 class="card-subtitle mb-2 text-muted">{value.Date}</h6>
-    {/* <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p> */}
-    <a href={value.Download_link} class="btn btn-primary btn-lg active" role="button" aria-pressed="true">Download</a>
+<div className="card-body">
+  <h5 className="card-title"><span className='download-title-name'>{value.title} </span><img  src={value.titleimag} alt=''/></h5>
+  <h6 className="card-subtitle mb-2 text-muted"><span className='download-date'>{value.Date}</span></h6>
+  <a href={value.Download_link} className="btn btn-primary btn-lg active download-button"  role="button" aria-pressed="true">Download</a>
+</div>
+
+
+
+
   </div>
-
-
-
-
-    </div>
-  }) 
+}) 
 }
 
 
