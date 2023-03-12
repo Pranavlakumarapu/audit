@@ -1,32 +1,3 @@
-/* 
-
- .contactdropdown{
-   border: 1px solid rgb(214, 208, 208);
-border-radius: 5px;
- }
-
-
- .contactbutton1{
-   margin: 30px;
-   background: #339DFF;
-   color: #fff;
-   line-height: 38px;
-   border-radius: 50px;
-   transition: 0.5s;
-   width: 170px;
-   border: 1px solid #339DFF;
- }
- .messagesend{
-   font-size: 16px;
- }
- .contactbutton1:hover{
-   background: #fff;
-   color: #339DFF;
-   box-shadow: 0 4px 4px rgba(83, 100, 255, 0.32);
- }
-.contact_page{
-padding-bottom: 150px;
-} */
 .contact-page{
   min-height: 100vh;  
 }
@@ -84,7 +55,6 @@ padding-bottom: 150px;
   border-radius: 30px;
 }
 .contact-description{
-  padding-top: 30%;
   color: #fff;
 }
 .contact-sidedescriti{

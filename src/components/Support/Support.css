@@ -112,8 +112,8 @@ video:focus{
     height: 100%;
     object-fit: fill;
   }
-  
-  @media (max-width: 768px) {
+   
+   @media (max-width: 768px) {
     .video-player__video {
       object-fit: contain;
     }
