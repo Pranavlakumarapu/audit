@@ -1,7 +1,8 @@
 import React from 'react';
 import {useParams,useLocation  } from 'react-router-dom';
 import Productslist from './data.json';
-import Banner from '../Banner/Banner';
+import Banner from '../Banner/Banner'
+
 function Productmenu() {
 
   const {type} =useParams();  
@@ -18,27 +19,35 @@ function Productmenu() {
 
   return (
     <div>
+       {/* <Banner passData={productData.product}/> */}
 
-    
-    <Banner passData={productData.product}/>
 <ul>
-  {filteredArray.map((p) => (
-    <li key={p}>
-      <p>{p.Product_title}</p>
-      <p>Product_title_caption: {p.Product_tile_caption}</p>
-      <p>Product_dec: {p.product_dec}</p>
-      <p>Product_featureCaption: {p.product_featureCaption}</p>
-      <p>sp_Title: {p.productlist[0].sp_Title}</p>
-      
-    
+{filteredArray && filteredArray.length > 0 && (
+  <ul>
+    {filteredArray.map((p) => (
+      <li className="productmenu" key={p.id}>
+        <p className='product-title'>{p.Product_title}</p>
+        <p className='product-title-dec'>{p.product_dec}</p>
+        <p className='feature-caption'> {p.product_featureCaption}</p>
+        {p.productlist && p.productlist.length > 0 && (
+          <ul>
+            {p.productlist.map((sp, index) => (
+              <li className=' productmenu2' key={index}>
+                  {/* <p><img alt='' src={sp.sp_img} /></p> */}
+                <p className='sp_title'> {sp.sp_Title}</p>
+                <p className='product-sp-dec'> {sp.sp_dec}</p>
+              </li>
+            ))}
+          </ul>
+        )}
+      </li>
+    ))}
+  </ul>
+)}
 
-    </li>
-  
-  ))}
 </ul>
 </div>
   );
 }
 
 export default Productmenu;
-

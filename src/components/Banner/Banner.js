@@ -5,7 +5,7 @@ import './Banner.css'
 class Banner extends Component {
   constructor(props) {
     super(props);
-    this.state = {settings: {autoplay: true,autoplaySpeed: 2000,duration: 20, wheel: true,arrows:false}};
+    this.state = {settings: {autoplay: true,autoplaySpeed: 2000,duration: 20, wheel: false,arrows:false}};
 
 
   }
@@ -42,3 +42,4 @@ const slides = filteredData.length > 0 ? filteredData[0].slides : [];
 }
 
 export default Banner;
+

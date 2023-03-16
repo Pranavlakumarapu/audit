@@ -39,7 +39,7 @@ export default function Menulist(props) {
         if (item.type == props.passData) {
           return <Link  to= "/Productmenu"
           state={{ productData: { product: item.name } }}
-           > <li key={index} className="container-sm">
+           > <li key={index} className="container-sm allmenuchange">
              <img src={item.img} alt='' className='itemimgsgas'/> <span className='itemname'>{item.name}</span>
           <div className='description'>{item.description}</div>
           </li> </Link>;
