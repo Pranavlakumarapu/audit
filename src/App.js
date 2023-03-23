@@ -23,7 +23,7 @@ function App() {
 
        <BrowserRouter>
        <Navbar/>
-      <Menu/>
+      {/* <Menu/> */}
      
      
       <div className="App">

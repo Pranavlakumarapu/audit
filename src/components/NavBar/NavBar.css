@@ -13,7 +13,7 @@
   }
 
   .navbar{
-    background: #fff;
+    background:#fff;
     transition: 0.5s;
   }
   .bar1 {
@@ -109,8 +109,21 @@
     height: auto;
     font-weight: 700;
   }
+  .dropdownmenunav {
+    background: transparent !important;
+    color: #0A4F88 !important;
+    border: none !important;
+    /* font-size: 18px;
+   
+    font-weight: 700; */
+  }
   
+  .dropdownmenunav:hover,
+  .dropdownmenunav:active {
+    background: transparent !important;
+    color: #0A4F88 !important;
+    border: none !important;
 
-
+  }
 
   

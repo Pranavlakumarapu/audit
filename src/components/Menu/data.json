@@ -5,10 +5,11 @@
         "img" : "/images/supermarket.png",
         "name" : "SuperMarket",
         "Product_Detials":
-        [{"Product_title":"SuperMarket",
+        [
+        {"Product_title":"SuperMarket",
         "product_dec":"Auditus-IERP software is a powerful solution designed for SuperMarkets to streamline their operations and improve their overall efficiency. This software is specifically tailored to meet the unique needs of SuperMarkets and offers a range of features to help manage inventory, track sales, and analyze customer behavior. With this software, SuperMarkets can easily manage their stock levels and avoid overstocking or understocking, which can impact their bottom line.",
         "product_featureCaption":"Auditus-IERP SuperMarket Features",
-        "product_sliderimgs":["imppath1","imppath2","imppath3"],  
+        "product_sliderimgs" :["/bannerimages/supermarket1.png", "/bannerimages/supermarket2.png","/bannerimages/supermarket3.png","/bannerimages/supermarket4.png","/bannerimages/supermarket5.png","/bannerimages/supermarket6.png"],  
         "productlist":[{
             "sp_img":"/images/audit.jpg",
             "sp_Title":"Inventory Management",
@@ -118,6 +119,16 @@
             "sp_img":"/images/audit.jpg",
             "sp_Title":"Warehouse Management",
             "sp_dec":" Auditus-IERP software includes a warehouse management module, enabling supermarkets to optimize warehouse operations, and manage inventory levels and order fulfillment"
+        },
+        {
+            "sp_img":"/images/audit.jpg",
+            "sp_Title":"Cash Drawer",
+            "sp_dec":"Cash Drawer is a feature in Auditusierp Software for supermarkets that helps manage cash transactions at the point of sale. It enables cashiers to easily open and close the drawer and record cash transactions for each sale."
+        },
+        {
+            "sp_img":"/images/audit.jpg",
+            "sp_Title":"Touch/POS Integration",
+            "sp_dec":"Auditusierp software for supermarkets has Touch/POS Integration feature which allows easy and efficient management of sales, inventory and customer data with the help of touch screen interface"
         }
         ]}]
     },
@@ -130,7 +141,7 @@
 
         "product_dec":"Auditus-IERP, retailers can easily manage their inventory levels and keep track of stock movements across multiple stores and warehouses. The software also provides real-time visibility into sales performance, enabling retailers to make informed decisions about product assortments, pricing, and promotions.",
         "product_featureCaption":"Auditus-IERP Footwear Features",
-        "product_sliderimgs":["imppath1","imppath2","imppath3"],
+        "product_sliderimgs":["/bannerimages/footwear1.png","/bannerimages/footwear2.png","/bannerimages/footwear3.png","/bannerimages/footwear4.png","/bannerimages/footwear5.png"],
         "productlist":[{
             "sp_img":"/images/audit.jpg",
             "sp_Title":"Product Information Management",
@@ -257,7 +268,7 @@
         "Product_title":"Pharmacy",
         "product_dec":"Auditus-IERP provides advanced reporting capabilities that allow pharmacies to generate custom reports and dashboards, giving them a real-time view of their performance. With this information, pharmacies can quickly identify trends and make informed decisions about their business.",
         "product_featureCaption":"Auditus-IERP Phrmacy Features",
-        "product_sliderimgs":["imppath1","imppath2","imppath3"],
+        "product_sliderimgs":["/bannerimages/Pharmacy1.png","/bannerimages/Pharmacy2.png","/bannerimages/Pharmacy3.png","/bannerimages/Pharmacy4.png","/bannerimages/Pharmacy5.png"],
         "productlist":[{
             "sp_img":"/images/audit.jpg",
             "sp_Title":"Inventory Management",
@@ -379,7 +390,7 @@
 
        "product_dec":"Auditus-IERP software is a comprehensive and efficient solution for textile businesses that helps to streamline operations and enhance productivity. With its user-friendly interface and advanced features, Auditus-IERP software is specifically designed to meet the needs of textile manufacturers, wholesalers, and retailers",
         "product_featureCaption":"Auditus-IERP Textiles Features",
-        "product_sliderimgs":["imppath1","imppath2","imppath3"],
+        "product_sliderimgs":["/bannerimages/textile1.png","/bannerimages/textile2.png","/bannerimages/textile3.png","/bannerimages/textile4.png","/bannerimages/textile5.png"],
         "productlist":[{
             "sp_img":"/images/audit.jpg",
             "sp_Title":"Inventory Management",
@@ -471,26 +482,56 @@
         "Product_Detials":[{"Product_title":"Garment",
         "product_dec":" Auditus-IERP software provides a comprehensive solution for garment businesses to manage their operations efficiently. From inventory management to production planning, sales management, and customer relationship management, Auditus-IERP software provides a range of tools to help businesses optimize their processes and achieve their business goals.",
         "product_featureCaption":"Auditus-IERP Garment Features",
-        "product_sliderimgs":["imppath1","imppath2","imppath3"],
+        "product_sliderimgs":["/bannerimages/garment1.png","/bannerimages/garment2.png","/bannerimages/garment3.png","/bannerimages/garment4.png","/bannerimages/garment5.png"],
         "productlist":[{
             "sp_img":"/images/audit.jpg",
-            "sp_Title":"Material Management",
-            "sp_dec":" Auditus-IERP software enables garment businesses to manage their raw material inventory, including fabrics, trims, and accessories. The software provides tools to track the availability of materials, manage vendor orders, and generate purchase orders"
+            "sp_Title":"Product development",
+            "sp_dec":"The software allows for easy creation and management of new product lines, including product specifications, bill of materials, and production planning"
         },
         {
             "sp_img":"/images/audit.jpg",
-            "sp_Title":"Production Planning",
-            "sp_dec":"Auditus-IERP software allows garment businesses to plan their production processes efficiently. The software provides tools for capacity planning, work order management, and quality control. This helps businesses to optimize their production processes, reduce lead times, and improve product quality"
+            "sp_Title":"Order management",
+            "sp_dec":"Auditus-IERP software helps manage orders from different channels, including online and offline, and provides real-time visibility of order status and inventory"
         },
         {
             "sp_img":"/images/audit.jpg",
-            "sp_Title":"Costing",
-            "sp_dec":"Auditus-IERP software provides a comprehensive costing module that allows businesses to calculate the cost of goods sold accurately. The software takes into account various factors such as raw material costs, labor costs, and overhead costs to provide businesses with accurate costing information"
+            "sp_Title":"Manufacturing management",
+            "sp_dec":"The software facilitates end-to-end production management, including tracking of work-in-progress, material consumption, quality control, and costing"
         },
         {
             "sp_img":"/images/audit.jpg",
-            "sp_Title":"Sales Management",
-            "sp_dec":"Auditus-IERP software provides a range of tools to manage sales processes such as order processing, invoicing, and payment tracking. This helps businesses to improve their sales efficiency and increase customer satisfaction."
+            "sp_Title":"Inventory management",
+            "sp_dec":"The software provides real-time inventory tracking and management across multiple locations, helping to reduce stockouts and overstocks"
+        },
+        {
+            "sp_img":"/images/audit.jpg",
+            "sp_Title":"Financial management",
+            "sp_dec":"The software offers comprehensive financial management, including accounts payable and receivable, general ledger, and tax management"
+        },
+        {
+            "sp_img":"/images/audit.jpg",
+            "sp_Title":"Reporting and analytics",
+            "sp_dec":" The software provides real-time visibility into key performance indicators (KPIs) and generates reports and analytics that help make data-driven decisions"
+        },
+        {
+            "sp_img":"/images/audit.jpg",
+            "sp_Title":"Easy & Fast Billing",
+            "sp_dec":"Improve Billing Speed by 40% by Barcode Scanning, MRP, Than etc. wise billing. Also, reduce the customer's waiting time at counters"
+        },
+        {
+            "sp_img":"/images/audit.jpg",
+            "sp_Title":"Stock Management",
+            "sp_dec":"Manage your inventory of garments/ apparels on the basis of Type, Article Number, Size, Category, Gender, Style, Colour & many more"
+        },
+        {
+            "sp_img":"/images/audit.jpg",
+            "sp_Title":"Cash Drawer",
+            "sp_dec":"With an advanced Cash Drawer management system, manage Transactions, Cash Flow, Profits etc. entered on each sale with security"
+        },
+        {
+            "sp_img":"/images/audit.jpg",
+            "sp_Title":"GST Billing",
+            "sp_dec":"The Auditusierp software for GST compliance enables creating price-wise invoices and seamlessly pushing transactions into the GSTN portal. With the ability to file GST returns directly and in multiple formats, including Excel, JSON, and CSV, it streamlines the entire GST compliance process for businesses"
         }
         ]}]
     },
@@ -502,7 +543,7 @@
         "Product_Detials":[{"Product_title":"Retail Shop",
         "product_dec":" Auditus-IERP software provides a comprehensive solution for retail shops to manage their operations efficiently. From POS to inventory management, customer relationship management, and employee management, Auditus-IERP software provides a range of tools to help retail shops optimize their processes and achieve their business goals",
         "product_featureCaption":"Auditus-IERP Retail Shop Features",
-        "product_sliderimgs":["imppath1","imppath2","imppath3"],
+        "product_sliderimgs":["/bannerimages/retailshop1.png","/bannerimages/retailshop2.png","/bannerimages/retailshop3.png","/bannerimages/retailshop4.png","/bannerimages/retailshop5.png"],
         "productlist":[{
             "sp_img":"/images/audit.jpg",
             "sp_Title":"Inventory management",
@@ -564,21 +605,106 @@
         "Product_Detials":[{"Product_title":"Kirana/Grocery",
         "product_dec":" Auditus-IERP software offers a comprehensive suite of tools that enable grocery businesses to manage their operations efficiently, improve customer satisfaction, and increase sales.",
         "product_featureCaption":"Auditus-IERP Grocery Features",
-        "product_sliderimgs":["imppath1","imppath2","imppath3"],
+        "product_sliderimgs":["/bannerimages/grocery1.png","/bannerimages/grocery2.png","/bannerimages/grocery3.png","/bannerimages/grocery4.png","/bannerimages/grocery5.png"],
         "productlist":[{
             "sp_img":"/images/audit.jpg",
-            "sp_Title":"Inventory Management",
-            "sp_dec":"Auditus-IERP software provides tools for inventory management, including stock level tracking, automated replenishment, and purchase order generation  Multi-Channel Sales: Auditus-IERP software supports multiple channels, including online, mobile, and in-store sales, allowing grocery businesses to reach customers across various platforms"
+            "sp_Title":"Inventory management",
+            "sp_dec":"Allows the grocery store to manage their inventory levels, track stock levels and set up automatic reordering"
         },
         {
             "sp_img":"/images/audit.jpg",
-            "sp_Title":"Customer Relationship Management (CRM)",
-            "sp_dec":" Auditus-IERP software includes CRM tools that enable businesses to manage customer data, track purchase history, and create targeted marketing campaigns"
+            "sp_Title":"Point of Sale (POS) system",
+            "sp_dec":"Provides a system for processing sales transactions and handling payment processing"
         },
         {
             "sp_img":"/images/audit.jpg",
-            "sp_Title":"Automated Ordering",
-            "sp_dec":"Auditus-IERP software can automate the ordering process, reducing the time and effort required to manage inventory levels and ensuring that businesses have the right products in stock"
+            "sp_Title":"Accounting",
+            "sp_dec":"Helps the grocery store keep track of financial transactions, including sales, expenses, and revenue"
+        },
+        {
+            "sp_img":"/images/audit.jpg",
+            "sp_Title":"Customer relationship management (CRM)",
+            "sp_dec":"Allows the store to manage customer information, such as their contact details, purchase history, and preferences"
+        },
+        {
+            "sp_img":"/images/audit.jpg",
+            "sp_Title":"Purchase order management",
+            "sp_dec":"Helps the store manage the purchasing process for goods, including creating purchase orders, receiving orders, and processing invoices"
+        },
+        {
+            "sp_img":"/images/audit.jpg",
+            "sp_Title":"Supply chain management",
+            "sp_dec":"Helps the store manage their entire supply chain, including supplier management, logistics, and distribution"
+        },
+        {
+            "sp_img":"/images/audit.jpg",
+            "sp_Title":"Reporting and analytics",
+            "sp_dec":"Provides reports and analytics on various aspects of the grocery store, such as sales performance, inventory levels, and customer behavior"
+        },
+        {
+            "sp_img":"/images/audit.jpg",
+            "sp_Title":"Integration with other systems",
+            "sp_dec":"Enables the ERP system to integrate with other systems used by the grocery store, such as e-commerce platforms or marketing automation software"
+        },
+        {
+            "sp_img":"/images/audit.jpg",
+            "sp_Title":"Traceability and quality control",
+            "sp_dec":"Allows the store to track products from their origins through to the point of sale, ensuring that they meet quality and safety standards"
+        },
+        {
+            "sp_img":"/images/audit.jpg",
+            "sp_Title":"Online ordering and delivery management",
+            "sp_dec":" Allows the store to accept online orders and manage delivery logistics, providing a convenient way for customers to shop and receive products"
+        },
+        {
+            "sp_img":"/images/audit.jpg",
+            "sp_Title":"Vendor and supplier management",
+            "sp_dec":"Helps the store manage relationships with vendors and suppliers, including managing contracts, tracking performance, and handling payments"
+        },
+        {
+            "sp_img":"/images/audit.jpg",
+            "sp_Title":"Multi-store management",
+            "sp_dec":"Enables the store to manage multiple locations from a single system, providing centralized control and streamlined operations"
+        },
+        {
+            "sp_img":"/images/audit.jpg",
+            "sp_Title":"Employee management ",
+            "sp_dec":"Helps the store manage employee information, including schedules, time tracking, and performance metrics"
+        },
+        {
+            "sp_img":"/images/audit.jpg",
+            "sp_Title":"Data security and compliance",
+            "sp_dec":" Provides robust security features and ensures that the store complies with relevant regulations and standards"
+        },
+        {
+            "sp_img":"/images/audit.jpg",
+            "sp_Title":"Loyalty program management",
+            "sp_dec":" Enables the store to create and manage customer loyalty programs, including point-based systems, reward redemption, and targeted promotions"
+        },
+        {
+            "sp_img":"/images/audit.jpg",
+            "sp_Title":"Customer segmentation and analytics",
+            "sp_dec":"Allows the store to segment customers based on their purchasing behavior and preferences, and to generate insights into customer behavior to inform marketing and sales strategies"
+        },
+        {
+            "sp_img":"/images/audit.jpg",
+            "sp_Title":"Forecasting and demand planning",
+            "sp_dec":"Helps the store forecast demand for products, enabling them to optimize inventory levels, reduce waste, and improve supply chain management"
+        },
+        {
+            "sp_img":"/images/audit.jpg",
+            "sp_Title":"Sales performance management",
+            "sp_dec":"Provides metrics and analytics on sales performance, including revenue, profit margins, and customer acquisition and retention"
+        },
+        {
+            "sp_img":"/images/audit.jpg",
+            "sp_Title":"Cost management and analysis",
+            "sp_dec":"Provides insights into packaging costs and helps the store optimize pricing and profitability"
+        },
+        {
+            "sp_img":"/images/audit.jpg",
+            "sp_Title":"Shelf management",
+            "sp_dec":"Allows the store to optimize shelf space and layout, including planogramming and merchandising"
         }
         ]}]
         
@@ -591,21 +717,76 @@
         "Product_Detials":[{"Product_title":"Book Store",
         "product_dec":"Auditus-IERP software offers bookstores a comprehensive suite of tools to streamline operations and increase customer satisfaction. The software includes a powerful point-of-sale system, inventory management tools, and a book search and recommendation engine. With features such as real-time reporting and analytics, customer relationship management, and loyalty programs, Auditus-IERP software enables bookstores to gain insights into sales trends, inventory levels, and customer behavior.",
         "product_featureCaption":"Auditus-IERP BookStore Features",
-        "product_sliderimgs":["imppath1","imppath2","imppath3"],
+        "product_sliderimgs":["/bannerimages/book1.png","/bannerimages/book2.png","/bannerimages/book3.png","/bannerimages/book4.png"],
         "productlist":[{
             "sp_img":"/images/audit.jpg",
-            "sp_Title":"Barcode Scanning",
-            "sp_dec":"Auditus-IERP software includes barcode scanning capabilities, enabling bookstores to quickly and accurately scan items at the point of sale"
+            "sp_Title":"Inventory Management",
+            "sp_dec":"The software helps to keep track of the inventory of books and other items in the store, including stock levels, reorder points, and vendor information"
+        },
+        {
+            "sp_img":"/images/audit.jpg",
+            "sp_Title":"Point of Sale (POS)",
+            "sp_dec":"The software provides a user-friendly POS system that makes it easy to process sales transactions, manage customer information, and accept various payment methods"
+        },
+        {
+            "sp_img":"/images/audit.jpg",
+            "sp_Title":"Customer Management",
+            "sp_dec":"The software allows bookstores to manage customer information, including contact details, purchase history, and loyalty program details"
         },
         {
             "sp_img":"/images/audit.jpg",
             "sp_Title":"Purchase Order Management",
-            "sp_dec":"Auditus-IERP software includes tools to manage purchase orders, enabling bookstores to easily create and track orders from suppliers"
+            "sp_dec":"The software streamlines the purchase order process, including creating and tracking purchase orders, receiving and processing supplier invoices, and managing vendor information"
         },
         {
             "sp_img":"/images/audit.jpg",
-            "sp_Title":"Discounts and Promotions",
-            "sp_dec":" Auditus-IERP software provides tools to create and manage discounts and promotions, allowing bookstores to incentivize sales and drive customer engagement"
+            "sp_Title":"Reporting and Analytics",
+            "sp_dec":"The software provides detailed reports on sales, inventory, and customer data, which helps bookstores to make informed business decisions"
+        },
+        {
+            "sp_img":"/images/audit.jpg",
+            "sp_Title":"Integration with E-commerce Platforms",
+            "sp_dec":"The software can integrate with various e-commerce platforms to expand the store's reach and sell books online"
+        },
+        {
+            "sp_img":"/images/audit.jpg",
+            "sp_Title":"Multi-Store Management",
+            "sp_dec":"The software can support multiple store locations, providing centralized management of inventory, sales, and customer data across all locations"
+        },
+        {
+            "sp_img":"/images/audit.jpg",
+            "sp_Title":"Barcode Scanning",
+            "sp_dec":"The software supports barcode scanning for efficient inventory management and pricing accuracy"
+        },
+        {
+            "sp_img":"/images/audit.jpg",
+            "sp_Title":"Auto-Cloud Backup",
+            "sp_dec":"Easily store and access your data online with Auditusierp software. Simply upload your data to Google Drive or OneDrive and retrieve it from anywhere. Plus, backup and restore your data as needed for added convenience and peace of mind"
+        },
+        {
+            "sp_img":"/images/audit.jpg",
+            "sp_Title":"Data Security",
+            "sp_dec":"Our auditusierp software comes with copy protection and directory, hard disk, and server protection to ensure the safety of your data. It also features data restore password to enhance security measures"
+        },
+        {
+            "sp_img":"/images/audit.jpg",
+            "sp_Title":"Easy & Fast Billing",
+            "sp_dec":"The software allows for the generation of batch-wise invoices, providing comprehensive information about various businesses"
+        },
+        {
+            "sp_img":"/images/audit.jpg",
+            "sp_Title":"Inventory Management",
+            "sp_dec":"Efficiently manage inventory levels, set reorder points to replenish stock, and prevent losses due to expiry by staying on top of your stock with our software"
+        },
+        {
+            "sp_img":"/images/audit.jpg",
+            "sp_Title":"GST filing",
+            "sp_dec":" Auditus-IERP enables you to seamlessly push your transactions into the GST portal and file returns directly, simplifying the process and saving you time and effort"
+        },
+        {
+            "sp_img":"/images/audit.jpg",
+            "sp_Title":"Auto-Bank Reconciliation",
+            "sp_dec":"Auditus-Ierp software provides the convenience of online banking with ICICI Bank and auto-bank reconciliation feature with 140+ banks, making financial management effortless for businesses"
         }
         ]}]
     },
@@ -617,21 +798,76 @@
         "Product_Detials":[{"Product_title":"Jewellery",
         "product_dec":"Auditus-IERP software for jewellery offers a comprehensive suite of tools that enable jewellery stores to manage their operations efficiently, improve customer satisfaction, and increase sales. The software includes a powerful point-of-sale system, inventory management tools, and customer relationship management features. With real-time reporting and analytics, multi-channel sales support, and integrated payment processing, Auditus-IERP software is an ideal solution for jewellery stores of all sizes.",
         "product_featureCaption":"Auditus-IERP Jewellery Features",
-        "product_sliderimgs":["imppath1","imppath2","imppath3"],
+        "product_sliderimgs":["/bannerimages/jew1.png","/bannerimages/jew2.png","/bannerimages/jew3.png"],
         "productlist":[{
             "sp_img":"/images/audit.jpg",
-            "sp_Title":"Barcode Scanning",
-            "sp_dec":"Auditus-IERP software includes barcode scanning capabilities, enabling bookstores to quickly and accurately scan items at the point of sale"
+            "sp_Title":"Inventory Management",
+            "sp_dec":"The software allows jewelers to manage their inventory of precious metals, gemstones, and finished jewelry items, tracking quantities, pricing, and product details"
         },
         {
             "sp_img":"/images/audit.jpg",
-            "sp_Title":"Purchase Order Management",
-            "sp_dec":"Auditus-IERP software includes tools to manage purchase orders, enabling bookstores to easily create and track orders from suppliers"
+            "sp_Title":"Order Management",
+            "sp_dec":"The software provides tools for managing orders, including order tracking, invoicing, and shipment tracking"
         },
         {
             "sp_img":"/images/audit.jpg",
-            "sp_Title":"Discounts and Promotions",
-            "sp_dec":" Auditus-IERP software provides tools to create and manage discounts and promotions, allowing bookstores to incentivize sales and drive customer engagement"
+            "sp_Title":"Customer Management",
+            "sp_dec":"  The software allows jewelers to manage customer data, including contact information, purchase history, and preferences, to provide personalized service"
+        },
+        {
+            "sp_img":"/images/audit.jpg",
+            "sp_Title":"Point of Sale (POS)",
+            "sp_dec":"  The software supports point-of-sale transactions, including barcode scanning and payment processing, to streamline the checkout process"
+        },
+        {
+            "sp_img":"/images/audit.jpg",
+            "sp_Title":"Custom Order Management",
+            "sp_dec":"The software provides tools for managing custom orders, including tracking order progress and communicating with customers"
+        },
+        {
+            "sp_img":"/images/audit.jpg",
+            "sp_Title":"Price Management",
+            "sp_dec":"The software allows jewelers to manage pricing, including markups and discounts, for individual products and product categories"
+        },
+        {
+            "sp_img":"/images/audit.jpg",
+            "sp_Title":"Sales Reporting",
+            "sp_dec":"The software provides detailed sales reports, including revenue by product, customer, and time period, to help jewelers make informed business decisions"
+        },
+        {
+            "sp_img":"/images/audit.jpg",
+            "sp_Title":"Barcode & RFID wise Billing",
+            "sp_dec":"Auditusierp software for supermarkets offers a fast and efficient billing process by directly scanning barcodes and RFID codes, increasing sales by up to 40%. It also allows for splitting tags at the sale point and creating separate tags for enhanced inventory management"
+        },
+        {
+            "sp_img":"/images/audit.jpg",
+            "sp_Title":"Stock with Product Catalogue",
+            "sp_dec":"Auditusierp software enables efficient management of inventory by creating a product catalogue based on images, carat, weight, item code, purity, and stock summary, and valuing stock using FIFO, average rate, GP, last purchase, and current rate"
+        },
+        {
+            "sp_img":"/images/audit.jpg",
+            "sp_Title":"Customer Jewellery Insurance",
+            "sp_dec":"Auditus-IERP software for jewellery stores provides a unique feature called O-Locker that offers customised insurance coverage for your customers' precious jewellery, providing them with peace of mind and eliminating fears related to jewellery ownership and usage"
+        },
+        {
+            "sp_img":"/images/audit.jpg",
+            "sp_Title":"Weighing Scale Attachment",
+            "sp_dec":"Auditusierp software for retail stores allows you to easily pick even the smallest quantity of items with just one click from the weighing machine. It helps you manage your stock based on gross weight, net weight, and piece-wise while billing at the counter, minimizing the chances of manual errors"
+        },
+        {
+            "sp_img":"/images/audit.jpg",
+            "sp_Title":"Bhav Cutting",
+            "sp_dec":"Easily transact with any metal, including gold, silver, and diamond, and manage ledger accounts with metal balance alongside cash balance, receiving payments accordingly. Enjoy instant reflection of these transactions in your accounts with Auditus-IERP"
+        },
+        {
+            "sp_img":"/images/audit.jpg",
+            "sp_Title":"Chit Funds & Kitty Management",
+            "sp_dec":"Auditusierp software for jewellery stores offers features to manage Chit Funds, Kitty and small schemes. You can easily create monthly receipts with one or more installments, due installment lists, and adjust receipts in sale vouchers. It also helps to keep track of customer details and more"
+        },
+        {
+            "sp_img":"/images/audit.jpg",
+            "sp_Title":"Repairing Process",
+            "sp_dec":"With Auditus-IERP, you can easily generate and issue replacement or repair entries for damaged jewellery, while maintaining detailed records and producing stock and date wise reports. This helps you improve customer experience and streamline your operations"
         }
         ]}]
     },
@@ -643,21 +879,62 @@
         "Product_Detials":[{"Product_title":"Departmental",
         "product_dec":"Auditus-IERP software for departmental stores provides a complete suite of features to manage all aspects of the business, including inventory management, sales management, and customer relationship management. With advanced reporting and analytics, real-time inventory tracking, and multi-store support, Auditus-IERP software enables departmental stores to make informed decisions and optimize their operations. The software also offers barcode scanning, purchase order management, and multi-currency support, making it an ideal solution for departmental stores with complex operations",
         "product_featureCaption":"Auditus-IERP Departmental Features",
-        "product_sliderimgs":["imppath1","imppath2","imppath3"],
+        "product_sliderimgs":["/bannerimages/dep1.png","/bannerimages/dep2.png","/bannerimages/dep3.png"],
         "productlist":[{
             "sp_img":"/images/audit.jpg",
-            "sp_Title":"Barcode Scanning",
-            "sp_dec":"Auditus-IERP software includes barcode scanning capabilities, enabling bookstores to quickly and accurately scan items at the point of sale"
+            "sp_Title":"Inventory Management",
+            "sp_dec":"The software can efficiently manage the inventory of various departments, helping to ensure that popular products are always in stock"
+        },
+        {
+            "sp_img":"/images/audit.jpg",
+            "sp_Title":"Sales Management",
+            "sp_dec":"The software provides real-time data on sales, allowing departmental store managers to make informed decisions about promotions and discounts"
         },
         {
             "sp_img":"/images/audit.jpg",
             "sp_Title":"Purchase Order Management",
-            "sp_dec":"Auditus-IERP software includes tools to manage purchase orders, enabling bookstores to easily create and track orders from suppliers"
+            "sp_dec":"The software allows departmental store managers to create and manage purchase orders, helping to streamline the purchasing process and ensure that stock levels are always optimal"
         },
         {
             "sp_img":"/images/audit.jpg",
-            "sp_Title":"Discounts and Promotions",
-            "sp_dec":" Auditus-IERP software provides tools to create and manage discounts and promotions, allowing bookstores to incentivize sales and drive customer engagement"
+            "sp_Title":"Employee Management",
+            "sp_dec":" The software provides tools for managing employee schedules, time off requests, and payroll, making it easier for departmental stores to manage their workforce"
+        },
+        {
+            "sp_img":"/images/audit.jpg",
+            "sp_Title":"Customer Relationship Management",
+            "sp_dec":"The software can manage customer data, purchase history, and preferences, allowing departmental stores to personalize marketing efforts and improve customer loyalty"
+        },
+        {
+            "sp_img":"/images/audit.jpg",
+            "sp_Title":"Barcode Scanning",
+            "sp_dec":"The software supports barcode scanning for efficient inventory management and pricing accuracy"
+        },
+        {
+            "sp_img":"/images/audit.jpg",
+            "sp_Title":"Multi-Store Management",
+            "sp_dec":" The software can support multiple store locations, providing centralized management of inventory, sales, and customer data across all locations"
+        },
+        {
+            "sp_img":"/images/audit.jpg",
+            "sp_Title":"Auto-Cloud Backup",
+            "sp_dec":"Auditus-IERP enables you to upload your data online and store it directly in Google Drive or One Drive, allowing you to access your data from anywhere and easily restore backups as needed"
+        },
+        {
+            "sp_img":"/images/audit.jpg",
+            "sp_Title":"Easy & Fast Billing ",
+            "sp_dec":"Auditus-IERP, you can easily generate batch-wise invoices and obtain detailed information about different businesses, simplifying your billing process"
+        },
+        {
+            "sp_img":"/images/audit.jpg",
+            "sp_Title":"E-Invoicing ",
+            "sp_dec":"Auditus-IERP allows for easy and secure electronic upload of B2B invoices, which are authenticated by the Invoice Registration Portal (IRP). You can also export invoices, credit notes, and debit notes for use on the common GST portal, simplifying your GST filing process"
+        }
+        ,
+        {
+            "sp_img":"/images/audit.jpg",
+            "sp_Title":"Order Calling",
+            "sp_dec":" Auditus-IERP software eliminates the need to manually enter a customer's contact number for placing orders and receiving calls, making the process more efficient and seamless"
         }
         ]}]
         
@@ -668,24 +945,74 @@
         "img" : "/images/FMCG.png",
         "name" : "FMCG",
         "description" : "At Auditus-IERP, we understand the importance of FMCG and are committed to providing our clients with the best possible products and services. Our team of experts is dedicated to staying up-to-date with the latest industry trends and consumer preferences, so that we can offer the most innovative and relevant products to meet the needs of our clients.",
-        "Product_Detials":[{"Product_title":"Departmental",
-        "product_dec":"Auditus-IERP software for departmental stores provides a complete suite of features to manage all aspects of the business, including inventory management, sales management, and customer relationship management. With advanced reporting and analytics, real-time inventory tracking, and multi-store support, Auditus-IERP software enables departmental stores to make informed decisions and optimize their operations. The software also offers barcode scanning, purchase order management, and multi-currency support, making it an ideal solution for departmental stores with complex operations",
-        "product_featureCaption":"Auditus-IERP Departmental Features",
-        "product_sliderimgs":["imppath1","imppath2","imppath3"],
+        "Product_Detials":[{"Product_title":"FMCG",
+        "product_dec":"Auditusierp software for FMCG helps businesses manage their sales, distribution, and inventory processes. With features such as batch-wise inventory management, expiry date tracking, and stock transfer management, businesses can ensure that their products are managed efficiently and effectively. The software also includes tools for sales force automation, which allows businesses to manage their sales representatives, track their performance, and monitor their activities in real-time",
+        "product_featureCaption":"Auditus-IERP FMCG Features",
+        "product_sliderimgs":["/bannerimages/supermarket3.png","/bannerimages/supermarket4.png","/bannerimages/supermarket5.png","/bannerimages/supermarket6.png"],
         "productlist":[{
             "sp_img":"/images/audit.jpg",
-            "sp_Title":"Barcode Scanning",
-            "sp_dec":"Auditus-IERP software includes barcode scanning capabilities, enabling bookstores to quickly and accurately scan items at the point of sale"
+            "sp_Title":"Inventory management",
+            "sp_dec":"he software helps in efficient inventory management by keeping track of the stock levels, managing batches, and tracking expiry dates. It also provides real-time updates on the stock levels and helps in generating purchase orders when stock levels reach the reorder point"
         },
         {
             "sp_img":"/images/audit.jpg",
-            "sp_Title":"Purchase Order Management",
-            "sp_dec":"Auditus-IERP software includes tools to manage purchase orders, enabling bookstores to easily create and track orders from suppliers"
+            "sp_Title":"Sales and distribution management",
+            "sp_dec":"The software helps in managing sales orders, invoices, and delivery schedules. It also provides real-time updates on sales performance and helps in identifying trends and opportunities"
         },
         {
             "sp_img":"/images/audit.jpg",
-            "sp_Title":"Discounts and Promotions",
-            "sp_dec":" Auditus-IERP software provides tools to create and manage discounts and promotions, allowing bookstores to incentivize sales and drive customer engagement"
+            "sp_Title":"Route planning and optimization",
+            "sp_dec":"The software helps in optimizing the delivery routes and schedules for field staff. It also provides real-time updates on the location of the delivery vehicles and helps in monitoring the delivery status"
+        },
+        {
+            "sp_img":"/images/audit.jpg",
+            "sp_Title":"Barcode scanning and labeling",
+            "sp_dec":"The software helps in efficient product labeling and barcode scanning. It enables the use of handheld scanners and mobile devices for quick and accurate scanning"
+        },
+        {
+            "sp_img":"/images/audit.jpg",
+            "sp_Title":"Sales force automation",
+            "sp_dec":"The software helps in automating the sales process and provides real-time updates on sales performance. It also helps in managing customer accounts, leads, and opportunities"
+        },
+        {
+            "sp_img":"/images/audit.jpg",
+            "sp_Title":"Integration with e-commerce platforms",
+            "sp_dec":"The software can be integrated with e-commerce platforms to enable online sales and manage online orders"
+        },
+        {
+            "sp_img":"/images/audit.jpg",
+            "sp_Title":"Auto-Cloud BackUp",
+            "sp_dec":"AuditusIERP for FMCG offers a feature that allows distributors to easily upload their data online and store it in Google Drive/One Drive, giving them the ability to access the data from anywhere and restore backups as per their requirements. This helps in efficient management of distributor data and ensures quick access to important information"
+        },
+        {
+            "sp_img":"/images/audit.jpg",
+            "sp_Title":"Data Security",
+            "sp_dec":"Secure your data with our FMCG software that offers copy protection for your hard disk, server protection, and the ability to restore data with a password"
+        },
+        {
+            "sp_img":"/images/audit.jpg",
+            "sp_Title":"Cashier Management",
+            "sp_dec":"Auditus ERP's FMCG software provides efficient cash management automation by allowing users to connect their cash drawer with the software, which opens on saving every bill. Additionally, users can attach an electronic weighing machine with the system for streamlined operations"
+        },
+        {
+            "sp_img":"/images/audit.jpg",
+            "sp_Title":"Order Calling",
+            "sp_dec":"Our FMCG ERP software streamlines the order taking process by enabling customers to place orders by simply scanning the QR code, eliminating the need to manually type in contact details"
+        },
+        {
+            "sp_img":"/images/audit.jpg",
+            "sp_Title":"E-Way Bill",
+            "sp_dec":"With our software, generating E-way bills becomes effortless as you can register on the GST Portal and upload all related processes to the portal, ensuring a seamless E-way bill management process"
+        },
+        {
+            "sp_img":"/images/audit.jpg",
+            "sp_Title":"GST Filing",
+            "sp_dec":"Push transactions into the GSTN portal in excel, JSON or CSV file and file your GST returns directly from Auditus-IERP portal"
+        },
+        {
+            "sp_img":"/images/audit.jpg",
+            "sp_Title":"Push Sale",
+            "sp_dec":"Get timely notifications & alerts of near expiry and dump items to reduce wastage. FMCG billing software enables you to push the right item to the right customer"
         }
         ]}]
     }, 
@@ -695,24 +1022,94 @@
         "img" : "/images/distributionPhrmacy.png",
         "name" : "Auditus-IERP Phrmacy",
         "description" : "Pharmacy management can be a complex and time-consuming task, but with the right software solution, it can be streamlined and made more efficient. That's where Auditus-IERP comes in. Our state-of-the-art accounting software is designed specifically for pharmacies and is equipped with all the tools and features you need to manage your business more effectively.",
-        "Product_Detials":[{"Product_title":"Departmental",
-        "product_dec":"Auditus-IERP software for departmental stores provides a complete suite of features to manage all aspects of the business, including inventory management, sales management, and customer relationship management. With advanced reporting and analytics, real-time inventory tracking, and multi-store support, Auditus-IERP software enables departmental stores to make informed decisions and optimize their operations. The software also offers barcode scanning, purchase order management, and multi-currency support, making it an ideal solution for departmental stores with complex operations",
-        "product_featureCaption":"Auditus-IERP Departmental Features",
-        "product_sliderimgs":["imppath1","imppath2","imppath3"],
+        "Product_Detials":[{"Product_title":"Pharmacy",
+        "product_dec":"Auditus-IERP is an advanced software solution for the pharmaceutical industry that provides end-to-end management of distribution operations. It offers comprehensive features to manage stock, inventory, sales, purchases, accounting, billing, and much more. With its easy-to-use interface and automation capabilities, the software is designed to help pharmacies streamline their operations and increase their efficiency",
+        "product_featureCaption":"Auditus-IERP Phrmacy Features",
+        "product_sliderimgs":["/bannerimages/Pharmacy1.png","/bannerimages/Pharmacy2.png","/bannerimages/Pharmacy3.png","/bannerimages/Pharmacy4.png","/bannerimages/Pharmacy5.png"],
         "productlist":[{
             "sp_img":"/images/audit.jpg",
-            "sp_Title":"Barcode Scanning",
-            "sp_dec":"Auditus-IERP software includes barcode scanning capabilities, enabling bookstores to quickly and accurately scan items at the point of sale"
+            "sp_Title":"Inventory Management",
+            "sp_dec":"Auditus-IERP helps pharmacies manage their stock levels, set reorder points, and track expiration dates. It also allows for batch-wise tracking of inventory, enabling pharmacies to trace the source of any quality issues"
         },
         {
             "sp_img":"/images/audit.jpg",
-            "sp_Title":"Purchase Order Management",
-            "sp_dec":"Auditus-IERP software includes tools to manage purchase orders, enabling bookstores to easily create and track orders from suppliers"
+            "sp_Title":"Sales and Purchase Management",
+            "sp_dec":"The software simplifies the sales and purchase processes, enabling pharmacies to create invoices, purchase orders, and quotations with ease. It also helps manage credit limits and payment terms for customers"
         },
         {
             "sp_img":"/images/audit.jpg",
-            "sp_Title":"Discounts and Promotions",
-            "sp_dec":" Auditus-IERP software provides tools to create and manage discounts and promotions, allowing bookstores to incentivize sales and drive customer engagement"
+            "sp_Title":"Accounting and Finance",
+            "sp_dec":"Auditus-IERP offers a complete accounting and finance module that can manage all the financial transactions of the pharmacy. It supports multi-currency transactions and allows for easy reconciliation of accounts"
+        },
+        {
+            "sp_img":"/images/audit.jpg",
+            "sp_Title":"E-Invoicing",
+            "sp_dec":"The software allows pharmacies to generate e-invoices for B2B transactions in compliance with the GST regulations. It also supports the E-Way Bill generation process"
+        },
+        {
+            "sp_img":"/images/audit.jpg",
+            "sp_Title":"Multi-Location",
+            "sp_dec":"Multi-location is a feature in software that allows businesses to manage and track their operations across multiple locations or branches. This feature is especially useful for businesses with several physical locations, such as retail stores, warehouses, or offices"
+        },
+        {
+            "sp_img":"/images/audit.jpg",
+            "sp_Title":"E-Way Bill",
+            "sp_dec":"Auditus-IERP software allows for easy generation of E-way bills and upload of related processes directly onto the GST portal"
+        },
+        {
+            "sp_img":"/images/audit.jpg",
+            "sp_Title":"Order Management",
+            "sp_dec":"Auditus-IERP streamlines the entire order management process, from order placement to order fulfilment. The software allows users to create purchase orders, track orders, and manage returns and cancellations. The system also automatically generates invoices and receipts once an order is completed"
+        },
+        {
+            "sp_img":"/images/audit.jpg",
+            "sp_Title":"Sales Management",
+            "sp_dec":"The software enables pharmacy distributors to manage their sales process efficiently. It allows them to track sales data and generate detailed reports, providing insights into sales trends, best-performing products, and customer behaviour"
+        },
+        {
+            "sp_img":"/images/audit.jpg",
+            "sp_Title":"Financial Management",
+            "sp_dec":"Auditus-IERP provides comprehensive financial management capabilities, including accounting, tax management, and budgeting. The software also enables users to create and manage financial statements and perform bank reconciliations"
+        },
+        {
+            "sp_img":"/images/audit.jpg",
+            "sp_Title":"Customer Management",
+            "sp_dec":"Auditus-IERP enables pharmacy distributors to manage their customer information, including contact details, order history, and purchase patterns. The system allows users to create customised pricing plans, offer discounts and promotions, and provide customer-specific reports"
+        },
+        {
+            "sp_img":"/images/audit.jpg",
+            "sp_Title":"Reporting and Analytics",
+            "sp_dec":"The software provides a range of reporting and analytics tools, enabling users to generate customised reports and dashboards that offer insights into their business performance. The software also offers analytics on sales trends, product performance, and customer behaviour"
+        },
+        {
+            "sp_img":"/images/audit.jpg",
+            "sp_Title":"Sales Management",
+            "sp_dec":"The software enables pharmacy distributors to manage their sales process efficiently. It allows them to track sales data and generate detailed reports, providing insights into sales trends, best-performing products, and customer behaviour"
+        },
+        {
+            "sp_img":"/images/audit.jpg",
+            "sp_Title":"Generate GST-Compliant Invoices",
+            "sp_dec":"The Auditus-IERP software enables Pharmacy Distribution businesses to generate GST-compliant invoices with ease. The software automatically calculates the GST component and displays it separately on the invoice"
+        },
+        {
+            "sp_img":"/images/audit.jpg",
+            "sp_Title":"GST Returns Filing",
+            "sp_dec":"Auditus-IERP software, Pharmacy Distribution businesses can file their GST returns seamlessly. The software generates GSTR-1, GSTR-2, and GSTR-3B reports automatically, which can be uploaded directly to the GST portal"
+        },
+        {
+            "sp_img":"/images/audit.jpg",
+            "sp_Title":"HSN and SAC Codes",
+            "sp_dec":"The software comes pre-loaded with the Harmonized System of Nomenclature (HSN) and Services Accounting Codes (SAC) for the Pharmacy Distribution industry. This simplifies the process of generating invoices and ensures compliance with GST regulations"
+        },
+        {
+            "sp_img":"/images/audit.jpg",
+            "sp_Title":"Reverse Charge Mechanism",
+            "sp_dec":" The software facilitates the management of reverse charge mechanism transactions for Pharmacy Distribution businesses. The software calculates the GST component for reverse charge transactions and enables businesses to file their returns accordingly"
+        },
+        {
+            "sp_img":"/images/audit.jpg",
+            "sp_Title":"GST Payment Management",
+            "sp_dec":"Auditus-IERP software enables businesses to manage their GST payments with ease. The software calculates the GST liability based on the transactions and enables businesses to pay the tax directly through the GST portal"
         }
         ]}]
     }, 
@@ -722,24 +1119,74 @@
         "img" : "/images/Fertilizer.png",
         "name" : "Fertilizer",
         "description" : "Auditus-IERP software provides real-time access to all your financial data, making it easy for you to make informed decisions about your business. It allows you to manage your inventory, keep track of your sales and expenses, and generate detailed financial reports with ease.",
-        "Product_Detials":[{"Product_title":"Departmental",
-        "product_dec":"Auditus-IERP software for departmental stores provides a complete suite of features to manage all aspects of the business, including inventory management, sales management, and customer relationship management. With advanced reporting and analytics, real-time inventory tracking, and multi-store support, Auditus-IERP software enables departmental stores to make informed decisions and optimize their operations. The software also offers barcode scanning, purchase order management, and multi-currency support, making it an ideal solution for departmental stores with complex operations",
-        "product_featureCaption":"Auditus-IERP Departmental Features",
-        "product_sliderimgs":["imppath1","imppath2","imppath3"],
+        "Product_Detials":[{"Product_title":"Fertilizer",
+        "product_dec":"Auditus-IERP software for Fertilizer provides a comprehensive solution for managing all aspects of fertilizer distribution businesses. With its advanced features, the software streamlines operations, increases productivity, and ensures accuracy in all processes. The software includes modules for inventory management, purchase management, sales management, finance management, and more",
+        "product_featureCaption":"Auditus-IERP Fertilizer Features",
+        "product_sliderimgs":["/bannerimages/ferti3.png","/bannerimages/ferti2.png","/bannerimages/ferti1.png"],
         "productlist":[{
             "sp_img":"/images/audit.jpg",
-            "sp_Title":"Barcode Scanning",
-            "sp_dec":"Auditus-IERP software includes barcode scanning capabilities, enabling bookstores to quickly and accurately scan items at the point of sale"
+            "sp_Title":"Inventory Management",
+            "sp_dec":"The software provides real-time inventory management, allowing businesses to keep track of stock levels, set reorder points, and prevent stockouts. It also provides information on batch numbers, expiry dates, and stock valuation"
         },
         {
             "sp_img":"/images/audit.jpg",
-            "sp_Title":"Purchase Order Management",
-            "sp_dec":"Auditus-IERP software includes tools to manage purchase orders, enabling bookstores to easily create and track orders from suppliers"
+            "sp_Title":"Sales Management",
+            "sp_dec":" The software helps manage the entire sales process, from order placement to invoicing and delivery. It enables businesses to manage multiple price lists, discounts, and offers, and provides real-time information on sales performance"
         },
         {
             "sp_img":"/images/audit.jpg",
-            "sp_Title":"Discounts and Promotions",
-            "sp_dec":" Auditus-IERP software provides tools to create and manage discounts and promotions, allowing bookstores to incentivize sales and drive customer engagement"
+            "sp_Title":"Purchase Management",
+            "sp_dec":" The software helps businesses manage the entire purchase process, from requisition to payment. It enables businesses to manage multiple suppliers, track purchase orders, and manage payments"
+        },
+        {
+            "sp_img":"/images/audit.jpg",
+            "sp_Title":"Financial Management",
+            "sp_dec":" The software helps businesses manage their financial operations, including accounting, taxation, and reporting. It provides real-time information on cash flow, balance sheets, and profit and loss statements"
+        },
+        {
+            "sp_img":"/images/audit.jpg",
+            "sp_Title":"GST Compliance",
+            "sp_dec":" The software is fully compliant with GST regulations, enabling businesses to easily generate GST invoices, file GST returns, and manage GST-related transactions"
+        },
+        {
+            "sp_img":"/images/audit.jpg",
+            "sp_Title":"Barcode Integration",
+            "sp_dec":" The software comes with barcode integration, enabling businesses to easily manage and track inventory, and speed up the billing process"
+        },
+        {
+            "sp_img":"/images/audit.jpg",
+            "sp_Title":"GST Compliant Invoicing",
+            "sp_dec":" The software generates GST-compliant invoices with all the necessary details, including the applicable tax rates, GSTIN, and HSN codes"
+        },
+        {
+            "sp_img":"/images/audit.jpg",
+            "sp_Title":"GST Returns Filing",
+            "sp_dec":"  Auditus-IERP simplifies the GST returns filing process by providing automatic computation oftaxes, generating accurate tax returns, and filing returns online"
+        },
+        {
+            "sp_img":"/images/audit.jpg",
+            "sp_Title":"E-Way Bill Generation",
+            "sp_dec":" The software enables the generation of E-way bills for the transportation of goods, as per GST norms"
+        },
+        {
+            "sp_img":"/images/audit.jpg",
+            "sp_Title":"Purchase and Sales Registers",
+            "sp_dec":" Auditus-IERP maintains a detailed record of all purchases and sales made by the business, ensuring proper tax computation and compliance with GST regulations"
+        },
+        {
+            "sp_img":"/images/audit.jpg",
+            "sp_Title":"Multi-location Inventory Management",
+            "sp_dec":" With the ability to manage inventory across multiple locations, distributors can keep track of stock levels and transfers between warehouses"
+        },
+        {
+            "sp_img":"/images/audit.jpg",
+            "sp_Title":" Payment and Credit Management",
+            "sp_dec":" The software allows for easy management of payments and credits, with features such as paymentreminders and credit limit alerts"
+        },
+        {
+            "sp_img":"/images/audit.jpg",
+            "sp_Title":" MIS Reporting",
+            "sp_dec":"  The software provides comprehensive management information system (MIS) reports, giving distributors the ability to track sales, inventory, payments, and other key metrics"
         }
         ]}]
     }, 
@@ -749,24 +1196,64 @@
         "img" : "/images/automobile.png",
         "name" : "AutoMobile",
         "description" : "At Auditus-IERP, we understand the unique challenges and requirements of the automotive industry, and our software is designed to meet those needs. We are committed to providing our clients with the best possible solutions to help them grow and succeed in their businesses.",
-        "Product_Detials":[{"Product_title":"Departmental",
-        "product_dec":"Auditus-IERP software for departmental stores provides a complete suite of features to manage all aspects of the business, including inventory management, sales management, and customer relationship management. With advanced reporting and analytics, real-time inventory tracking, and multi-store support, Auditus-IERP software enables departmental stores to make informed decisions and optimize their operations. The software also offers barcode scanning, purchase order management, and multi-currency support, making it an ideal solution for departmental stores with complex operations",
-        "product_featureCaption":"Auditus-IERP Departmental Features",
-        "product_sliderimgs":["imppath1","imppath2","imppath3"],
+        "Product_Detials":[{"Product_title":"AutoMobile",
+        "product_dec":"Auditus-IERP software for Automobiles is a comprehensive solution designed to meet the unique needs of the automobile industry. It helps automobile businesses to automate their operations, streamline their workflow, and enhance their productivity. The software comes loaded with a range of features that are specifically designed to cater to the needs of automobile businesses, such as spare parts management, vehicle tracking, inventory management, sales management, and more",
+        "product_featureCaption":"Auditus-IERP AutoMobile Features",
+        "product_sliderimgs":["/bannerimages/am1.png","/bannerimages/supermarket6.png","/bannerimages/garment4.png"],
         "productlist":[{
             "sp_img":"/images/audit.jpg",
-            "sp_Title":"Barcode Scanning",
-            "sp_dec":"Auditus-IERP software includes barcode scanning capabilities, enabling bookstores to quickly and accurately scan items at the point of sale"
+            "sp_Title":"Sales Management",
+            "sp_dec":"The software provides tools to manage and monitor sales processes, including invoicing, order tracking, sales forecasting, and sales analysis"
         },
         {
             "sp_img":"/images/audit.jpg",
-            "sp_Title":"Purchase Order Management",
-            "sp_dec":"Auditus-IERP software includes tools to manage purchase orders, enabling bookstores to easily create and track orders from suppliers"
+            "sp_Title":"Inventory Management",
+            "sp_dec":"Auditus-IERP software allows for effective management of inventory levels, monitoring stock levels, stock tracking, and stock transfers across locations"
         },
         {
             "sp_img":"/images/audit.jpg",
-            "sp_Title":"Discounts and Promotions",
-            "sp_dec":" Auditus-IERP software provides tools to create and manage discounts and promotions, allowing bookstores to incentivize sales and drive customer engagement"
+            "sp_Title":"Purchase Management",
+            "sp_dec":"This feature enables the management of purchase orders, purchase bills, and vendor management, all in one place"
+        },
+        {
+            "sp_img":"/images/audit.jpg",
+            "sp_Title":"Workshop Management",
+            "sp_dec":"The software includes tools to manage repair and maintenance activities, including job cards, service schedules, and vehicle history tracking"
+        },
+        {
+            "sp_img":"/images/audit.jpg",
+            "sp_Title":"Accounting and Finance",
+            "sp_dec":"Auditus-IERP software includes accounting modules for managing finances, such as general ledger, accounts payable, and accounts receivable"
+        },
+        {
+            "sp_img":"/images/audit.jpg",
+            "sp_Title":" Customer Relationship Management",
+            "sp_dec":"Customer Relationship Management tools are available to maintain customer data, track interactions, and manage customer inquiries and complaints"
+        },
+        {
+            "sp_img":"/images/audit.jpg",
+            "sp_Title":"Analytics and Reporting",
+            "sp_dec":"The software provides detailed analytics and reporting for sales, inventory, and other key performance indicators, allowing for data-driven decision-making"
+        },
+        {
+            "sp_img":"/images/audit.jpg",
+            "sp_Title":"GST Compliance",
+            "sp_dec":"The software provides features to manage GST compliance, including invoice generation, e-way bill generation, and GST return filing"
+        },
+        {
+            "sp_img":"/images/audit.jpg",
+            "sp_Title":"Warranty tracking",
+            "sp_dec":"The software allows for tracking of warranties on automobile products, with alerts for warranty expiry dates and warranty claims management"
+        },
+        {
+            "sp_img":"/images/audit.jpg",
+            "sp_Title":"Order and sales management",
+            "sp_dec":"The software includes tools for managing sales orders, customer invoices, and sales quotations to streamline the sales process"
+        },
+        {
+            "sp_img":"/images/audit.jpg",
+            "sp_Title":"Reporting and analytics",
+            "sp_dec":"The software offers various reporting and analytics tools, such as inventory reports, sales reports, and financial statements, to provide insights into the performance of the automobile business"
         }
         ]}]
     }, 
@@ -776,24 +1263,54 @@
         "img" : "/images/electricappliance.png",
         "name" : "Electrical Appaliance",
         "description" : "Auditus-IERP offers a state-of-the-art accounting software designed specifically for electrical appliance businesses. With a user-friendly interface and comprehensive features, our software provides you with a centralized platform to manage all aspects of your business operations. From tracking inventory levels to processing financial transactions, our software has you covered.",
-        "Product_Detials":[{"Product_title":"Departmental",
-        "product_dec":"Auditus-IERP software for departmental stores provides a complete suite of features to manage all aspects of the business, including inventory management, sales management, and customer relationship management. With advanced reporting and analytics, real-time inventory tracking, and multi-store support, Auditus-IERP software enables departmental stores to make informed decisions and optimize their operations. The software also offers barcode scanning, purchase order management, and multi-currency support, making it an ideal solution for departmental stores with complex operations",
-        "product_featureCaption":"Auditus-IERP Departmental Features",
-        "product_sliderimgs":["imppath1","imppath2","imppath3"],
+        "Product_Detials":[{"Product_title":"Electrical Appaliance",
+        "product_dec":"Auditus-IERP software for Electrical Appliances is designed to streamline and automate various business processes of electrical appliance manufacturers, distributors, and retailers. It offers a range of features that help in managing inventory, sales, purchase, finance, production, and other aspects of the business",
+        "product_featureCaption":"Auditus-IERP Electrical Appaliance Features",
+        "product_sliderimgs":["/bannerimages/ea1.png","/bannerimages/Pharmacy2.png","/bannerimages/supermarket3.png"],
         "productlist":[{
             "sp_img":"/images/audit.jpg",
-            "sp_Title":"Barcode Scanning",
-            "sp_dec":"Auditus-IERP software includes barcode scanning capabilities, enabling bookstores to quickly and accurately scan items at the point of sale"
+            "sp_Title":"Inventory Management",
+            "sp_dec":"It helps in managing inventory levels, tracking stock movements, and maintaining optimum stock levels to avoid stock-outs and overstocking"
         },
         {
             "sp_img":"/images/audit.jpg",
-            "sp_Title":"Purchase Order Management",
-            "sp_dec":"Auditus-IERP software includes tools to manage purchase orders, enabling bookstores to easily create and track orders from suppliers"
+            "sp_Title":"Sales Management",
+            "sp_dec":"It helps in managing sales orders, generating invoices, managing pricing, and tracking sales performance"
         },
         {
             "sp_img":"/images/audit.jpg",
-            "sp_Title":"Discounts and Promotions",
-            "sp_dec":" Auditus-IERP software provides tools to create and manage discounts and promotions, allowing bookstores to incentivize sales and drive customer engagement"
+            "sp_Title":"Purchase Management",
+            "sp_dec":" It helps in managing purchase orders, managing vendors, tracking purchase performance, and managing payables "
+        },
+        {
+            "sp_img":"/images/audit.jpg",
+            "sp_Title":"Finance Management",
+            "sp_dec":"  It helps in managing accounting transactions, generating financial statements, managing cash flow, and monitoring financial performance "
+        },
+        {
+            "sp_img":"/images/audit.jpg",
+            "sp_Title":"Production Management",
+            "sp_dec":" It helps in managing production orders, scheduling production activities, tracking production performance, and managing bill of materials "
+        },
+        {
+            "sp_img":"/images/audit.jpg",
+            "sp_Title":"Barcode Integration",
+            "sp_dec":" It helps in integrating barcode scanning technology to automate data entry and improve accuracy "
+        },
+        {
+            "sp_img":"/images/audit.jpg",
+            "sp_Title":"CRM Integration",
+            "sp_dec":"It helps in integrating CRM (Customer Relationship Management) software to manage customer data, sales activities, and marketing campaigns "
+        },
+        {
+            "sp_img":"/images/audit.jpg",
+            "sp_Title":"Multi-Location Support",
+            "sp_dec":"It supports multi-location management, allowing businesses to manage multiple warehouses, stores, and offices from a single platform "
+        },
+        {
+            "sp_img":"/images/audit.jpg",
+            "sp_Title":"Analytics and Reporting",
+            "sp_dec":"It provides advanced analytics and reporting tools that allow businesses to gain insights into their operations, identify areas for improvement, and make data-driven decisions "
         }
         ]}]
     }, 
@@ -801,44 +1318,150 @@
     {
         "id" : 16,
         "type" : "Manufacturing",
-        "img" : "/images/barcode.gif",
-        "name" : "Segdfgdrmat",
-         "description" :"PfdfgosddddRAvikumarpranavTejaswidddddddd wffdsffffffffffffffffffffffffffffesrfsdddddddddddddddddddddffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff"
+        "name" : "Production planning and scheduling",
+         "description" :" Auditus ERP software may include tools for creating production plans and schedules, allowing manufacturers to efficiently manage their resources and ensure that production runs smoothly"
     },
-{
-    "id" : 17,
-    "type" : "Manufacturing",
-    "img" : "/images/barcode.gif",
-    "name" : "SelfPrintFormat",
-    "description" : "Pfdfgosdddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddd"
-    
-},
+    {
+        "id" : 17,
+        "type" : "Manufacturing",
+        "name" : "Bill of materials management",
+        "description" : "With Auditus ERP software, manufacturers can easily manage bills of materials (BOMs) for their products, ensuring that they have the necessary components and materials on hand to complete production runs"
+        
+    },
 {
     "id" : 18,
     "type" : "Manufacturing",
-    "img" : "/images/barcode.gif",
-    "name" : "SelfPrintFodgfkfjrmat",
-    "description" : "Pfdfgosdddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddd"
+    "name" : "Inventory management",
+    "description" : "Auditus ERP software typically includes robust inventory management features, allowing manufacturers to track inventory levels in real-time and avoid stockouts or overstocking"
 },
 {
     "id" : 19,
     "type" : "Manufacturing",
-    "img" : "/images/barcode.gif",
-    "name" : "SelfPrintFormat",
-    "description" : "Pfdfgosdddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddd"
+    "name" : "Quality control",
+    "description" : " Auditus ERP software may offer quality control features that help manufacturers ensure that their products meet the necessary standards and specifications"
 },
 {
     "id" : 20,
     "type" : "Manufacturing",
-    "img" : "/images/barcode.gif",
-    "name" : "dfsdfd",
-    "description" : "Pfdfgosdddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddd"
+    "name" : "Cost accounting",
+    "description" : "By tracking all manufacturing-related costs, Auditus ERP software can provide manufacturers with detailed cost accounting reports that help them optimize their operations and reduce costs"
 },
 {
     "id" : 21,
     "type" : "Manufacturing",
-    "img" : "/images/barcode.gif",
-    "name" : "dfsdfd",
-    "description" : "Pfdfgosdddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddd"
+    "name" : "Shop floor control",
+    "description" : "Auditus ERP software may include tools for managing the shop floor, including tracking the progress of production runs, managing work orders, and monitoring equipment utilization"
+}
+,
+{
+    "id" : 21,
+    "type" : "Manufacturing",
+    "name" : "Material requirements planning (MRP)",
+    "description" : " Auditus ERP software may include MRP functionality, which can help manufacturers calculate the materials and components needed to fulfill production orders, and generate purchase orders or work orders accordingly"
+}
+,
+{
+    "id" : 21,
+    "type" : "Manufacturing",
+    "name" : "Capacity planning",
+    "description" : " Auditus ERP software may offer capacity planning tools that help manufacturers ensure that they have enough resources, including labor and equipment, to meet production demands"
+}
+,
+{
+    "id" : 21,
+    "type" : "Manufacturing",
+    "name" : "Production tracking and monitoring",
+    "description" : " Auditus ERP software may include features that allow manufacturers to track production runs in real-time, monitor performance metrics, and generate reports on productivity and efficiency"
+},
+{
+    "id" : 20,
+    "type" : "Manufacturing",
+    "name" : "Sales Analysis on Google Map",
+    "description" : "Improve your sales tracking with Google Satellite Maps by filtering data according to date, route, company, and salesman. With this advanced tool, you can easily locate new customers and expand your business"
+},
+{
+    "id" : 20,
+    "type" : "Manufacturing",
+    "name" : "Easy & Fast Billing",
+    "description" : "Efficiently generate batch-wise invoices with detailed information for various businesses. Streamline your invoicing process and ensure accuracy in record-keeping by leveraging this powerful tool"
+},
+{
+    "id" : 20,
+    "type" : "Manufacturing",
+    "name" : "Auto-Bank Reconciliation",
+    "description" : "Avail online banking option with ICICI Bank and Auto-Bank reconciliation facility with 140+ Banks only in Marg ERP"
+},
+{
+    "id" : 20,
+    "type" : "Manufacturing",
+    "name" : "Quality Assurance",
+    "description" : "By adhering to GMP standards, we guarantee that the entire product development and maintenance processes will result in the timely production of products that meet all required specifications and requirements"
+},
+{
+    "id" : 20,
+    "type" : "Manufacturing",
+    "name" : "Production Planning and Control",
+    "description" : "Optimizing supply chain, managing research and development and improving visibility across production operation"
+},
+{
+    "id" : 20,
+    "type" : "Manufacturing",
+    "name" : "E-Way Bill",
+    "description" : "Easily generate E-way Bill after registering on GST Portal and upload each and every process related to E-Way Bills on Portal itself"
+},
+{
+    "id" : 20,
+    "type" : "Manufacturing",
+    "name" : "Sales and Distribution",
+    "description" : "With our easy-to-use system, you can effortlessly track primary, secondary, and tertiary sales, minimizing forecasting errors and streamlining ordering and invoicing. This ultimately leads to reduced overhead costs, giving your business a competitive advantage"
+},
+{
+    "id" : 20,
+    "type" : "Manufacturing",
+    "name" : "E-Invoicing",
+    "description" : "Electronically upload B2B invoices authenticated by Invoice Registration Portal (IRP), Export invoices and Credit/Debit Notes for use on the common GST portal"
+},
+{
+    "id" : 20,
+    "type" : "Manufacturing",
+    "name" : "Import Purchase",
+    "description" : "Allow to import purchase from any excel or csv format to save your time with 100% accuracy"
+},
+{
+    "id" : 20,
+    "type" : "Manufacturing",
+    "name" : "Auto-Cloud Backup",
+    "description" : "Seamlessly upload your data online and store it directly in Google Drive or One Drive, enabling you to access your data from anywhere at any time. Additionally, our system allows you to restore your backup as per your specific requirements, providing flexibility and peace of mind"
+},
+{
+    "id" : 20,
+    "type" : "Manufacturing",
+    "name" : "Finished Good Quality Control",
+    "description" : "Our system is designed to be user-friendly, highly efficient, and easily configurable to meet your specific needs. It is fully compliant with FDA regulations and features integrated, automated quality processes. Our platforms are both scalable and customizable, providing you with the flexibility to adapt to your evolving business needs"
+},
+{
+    "id" : 20,
+    "type" : "Manufacturing",
+    "name" : "Order Calling",
+    "description" : "Our system eliminates the need to manually enter customer contact numbers for placing orders or making calls by allowing you to simply scan a QR code, streamlining the process and improving efficiency"
+},
+{
+    "id" : 20,
+    "type" : "Manufacturing",
+    "name" : "Procurement",
+    "description" : "Experience higher levels of end-user adoption and compliance when managing catalogs, requisitions and approvals, purchase orders, and more with our user-friendly system. Our solution streamlines the procurement process, ensuring improved efficiency and reducing the risk of errors"
+},
+
+{
+    "id" : 20,
+    "type" : "Manufacturing",
+    "name" : "Reporting",
+    "description" : "Gain greater control over your finances with our powerful reporting system, which offers thousands of sales, purchase, inventory, and accounting reports. Stay informed and up-to-date on key financial metrics to make informed business decisions and stay ahead of the competition"
+},
+{
+    "id" : 20,
+    "type" : "Manufacturing",
+    "name" : "Data Security",
+    "description" : "Protect your software and data from unauthorized access and distribution by utilizing our copy protection system, which includes directory, hard disk, and server protection. Our solution also features data restore password protection, ensuring that your valuable data is kept safe and secure"
 }
 ]

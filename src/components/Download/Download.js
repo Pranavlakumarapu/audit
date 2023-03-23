@@ -13,34 +13,25 @@ export default function Download() {
       Date:"Rel-2022-12-12"
     },
     {
-      title: "Mysql",
+      title: "Mysql 8.0.31",
       titleimag: "/images/download-new.gif",
       Download_link:"/downloads/mysql 8.0.31.rar",
       Date:"Rel-2022-12-12"
     }
     ,  {
       title: "Report Designer(Beta)",
-      titleimag: "",
-      Download_link:"/downloads/Auditusierp 18.5.5.9.rar",
+      Download_link:"/downloads/ReportDesginer.rar",
       Date:"Rel-2021-07-20"
     },
     {
-      title: "Mysql",
-      titleimag: "imgpath",
-      Download_link:"/downloads/Auditusierp 18.5.5.9.rar",
-      Date:"2022-12-12"
+      title: "Consignment(Beta)	",
+      Download_link:"/downloads/Consignment.rar",
+      Date:"Rel-2021-07-20"
     },
     {
-      title: "Auditsierp18.5.59",
-      titleimag: "/images/download-new.gif",
-      Download_link:"/downloads/Auditusierp 18.5.5.9.rar",
-      Date:"Rel-2022-12-12"
-    },
-    {
-      title: "Mysql",
-      titleimag: "imgpath",
-      Download_link:"/downloads/Auditusierp 18.5.5.9.rar",
-      Date:"2022-12-12"
+      title: "MandiBooks",
+      Download_link:"/downloads/Mandibooks.rar",
+      Date:"Rel-2021-07-20"
     }
   ]
   

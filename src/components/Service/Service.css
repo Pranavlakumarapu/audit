@@ -2,6 +2,7 @@
     text-align: center;  
 }
 .servicetitle{
+
 text-align: center;
 color: #fff;
 
@@ -39,6 +40,6 @@ color: #fff;
 }
 .servicebody{
     margin: 15px;
-
+    padding-top: 100px;
 }
 

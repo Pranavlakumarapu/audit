@@ -36,15 +36,25 @@ export default function Menulist(props) {
   <div className="row">
     <div className="col-sm">
        {arr.map((item, index) => {
-        if (item.type == props.passData) {
-          return <Link  to= "/Productmenu"
-          state={{ productData: { product: item.name } }}
-           > <li key={index} className="container-sm allmenuchange">
+        
+        if (item.type == props.passData ) 
+        {
+          if(props.passData=="Manufacturing"){
+            
+return   <li key={index} className="container-sm allmenuchange">
+<img src={item.img} alt='' className='itemimgsgas'/> <span className='itemname'>{item.name}</span>
+<div className='description'>{item.description}</div>
+</li>
+          }
+          else{
+          return      <Link  to= "/Productmenu"
+          state={{ productData: { product: item.name } }} > 
+           <li key={index} className="container-sm allmenuchange">
              <img src={item.img} alt='' className='itemimgsgas'/> <span className='itemname'>{item.name}</span>
           <div className='description'>{item.description}</div>
           </li> </Link>;
         }
-    
+        }
       })}
     </div>
   </div>
