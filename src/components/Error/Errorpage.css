@@ -1,8 +1,13 @@
-.error1{
+.error1 {
     text-align: center;
-    padding: 273px;
-    color: red;
+    color: white;
+    padding: 20px;
+    padding-top: 200px;;
+min-height: 100vh;
 }
-.errorpage{
-    background: rgb(217, 217, 217);
-}
+
+/* @media only screen and (min-width: 768px) {
+    .error1 {
+        max-width: 50%;
+    }
+} */
