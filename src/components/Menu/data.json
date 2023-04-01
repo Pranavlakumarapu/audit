@@ -543,7 +543,7 @@
         "Product_Detials":[{"Product_title":"Retail Shop",
         "product_dec":" Auditus-IERP software provides a comprehensive solution for retail shops to manage their operations efficiently. From POS to inventory management, customer relationship management, and employee management, Auditus-IERP software provides a range of tools to help retail shops optimize their processes and achieve their business goals",
         "product_featureCaption":"Auditus-IERP Retail Shop Features",
-        "product_sliderimgs":["/bannerimages/retailshop1.png","/bannerimages/retailshop2.png","/bannerimages/retailshop3.png","/bannerimages/retailshop4.png","/bannerimages/retailshop5.png"],
+        "product_sliderimgs":["/bannerimages/retailshop2.png","/bannerimages/footwear4.png","/bannerimages/supermarket6.png"],
         "productlist":[{
             "sp_img":"/images/audit.jpg",
             "sp_Title":"Inventory management",
@@ -605,7 +605,7 @@
         "Product_Detials":[{"Product_title":"Kirana/Grocery",
         "product_dec":" Auditus-IERP software offers a comprehensive suite of tools that enable grocery businesses to manage their operations efficiently, improve customer satisfaction, and increase sales.",
         "product_featureCaption":"Auditus-IERP Grocery Features",
-        "product_sliderimgs":["/bannerimages/grocery1.png","/bannerimages/grocery2.png","/bannerimages/grocery3.png","/bannerimages/grocery4.png","/bannerimages/grocery5.png"],
+        "product_sliderimgs":["/bannerimages/grocery3.png","/bannerimages/grocery4.png","/bannerimages/grocery5.png"],
         "productlist":[{
             "sp_img":"/images/audit.jpg",
             "sp_Title":"Inventory management",
@@ -717,7 +717,7 @@
         "Product_Detials":[{"Product_title":"Book Store",
         "product_dec":"Auditus-IERP software offers bookstores a comprehensive suite of tools to streamline operations and increase customer satisfaction. The software includes a powerful point-of-sale system, inventory management tools, and a book search and recommendation engine. With features such as real-time reporting and analytics, customer relationship management, and loyalty programs, Auditus-IERP software enables bookstores to gain insights into sales trends, inventory levels, and customer behavior.",
         "product_featureCaption":"Auditus-IERP BookStore Features",
-        "product_sliderimgs":["/bannerimages/book1.png","/bannerimages/book2.png","/bannerimages/book3.png","/bannerimages/book4.png"],
+        "product_sliderimgs":["/bannerimages/garment5.png","/bannerimages/book3.png","/bannerimages/book4.png"],
         "productlist":[{
             "sp_img":"/images/audit.jpg",
             "sp_Title":"Inventory Management",
@@ -798,7 +798,7 @@
         "Product_Detials":[{"Product_title":"Jewellery",
         "product_dec":"Auditus-IERP software for jewellery offers a comprehensive suite of tools that enable jewellery stores to manage their operations efficiently, improve customer satisfaction, and increase sales. The software includes a powerful point-of-sale system, inventory management tools, and customer relationship management features. With real-time reporting and analytics, multi-channel sales support, and integrated payment processing, Auditus-IERP software is an ideal solution for jewellery stores of all sizes.",
         "product_featureCaption":"Auditus-IERP Jewellery Features",
-        "product_sliderimgs":["/bannerimages/jew1.png","/bannerimages/jew2.png","/bannerimages/jew3.png"],
+        "product_sliderimgs":["/bannerimages/footwear2.png","/bannerimages/supermarket6.png","/bannerimages/jew3.png"],
         "productlist":[{
             "sp_img":"/images/audit.jpg",
             "sp_Title":"Inventory Management",
@@ -879,7 +879,7 @@
         "Product_Detials":[{"Product_title":"Departmental",
         "product_dec":"Auditus-IERP software for departmental stores provides a complete suite of features to manage all aspects of the business, including inventory management, sales management, and customer relationship management. With advanced reporting and analytics, real-time inventory tracking, and multi-store support, Auditus-IERP software enables departmental stores to make informed decisions and optimize their operations. The software also offers barcode scanning, purchase order management, and multi-currency support, making it an ideal solution for departmental stores with complex operations",
         "product_featureCaption":"Auditus-IERP Departmental Features",
-        "product_sliderimgs":["/bannerimages/dep1.png","/bannerimages/dep2.png","/bannerimages/dep3.png"],
+        "product_sliderimgs":["/bannerimages/retailshop2.png","/bannerimages/dep3.png","/bannerimages/grocery3.png"],
         "productlist":[{
             "sp_img":"/images/audit.jpg",
             "sp_Title":"Inventory Management",
@@ -1025,7 +1025,7 @@
         "Product_Detials":[{"Product_title":"Pharmacy",
         "product_dec":"Auditus-IERP is an advanced software solution for the pharmaceutical industry that provides end-to-end management of distribution operations. It offers comprehensive features to manage stock, inventory, sales, purchases, accounting, billing, and much more. With its easy-to-use interface and automation capabilities, the software is designed to help pharmacies streamline their operations and increase their efficiency",
         "product_featureCaption":"Auditus-IERP Phrmacy Features",
-        "product_sliderimgs":["/bannerimages/Pharmacy1.png","/bannerimages/Pharmacy2.png","/bannerimages/Pharmacy3.png","/bannerimages/Pharmacy4.png","/bannerimages/Pharmacy5.png"],
+        "product_sliderimgs":["/bannerimages/Pharmacy2.png","/bannerimages/Pharmacy3.png","/bannerimages/Pharmacy5.png"],
         "productlist":[{
             "sp_img":"/images/audit.jpg",
             "sp_Title":"Inventory Management",
@@ -1122,7 +1122,7 @@
         "Product_Detials":[{"Product_title":"Fertilizer",
         "product_dec":"Auditus-IERP software for Fertilizer provides a comprehensive solution for managing all aspects of fertilizer distribution businesses. With its advanced features, the software streamlines operations, increases productivity, and ensures accuracy in all processes. The software includes modules for inventory management, purchase management, sales management, finance management, and more",
         "product_featureCaption":"Auditus-IERP Fertilizer Features",
-        "product_sliderimgs":["/bannerimages/ferti3.png","/bannerimages/ferti2.png","/bannerimages/ferti1.png"],
+        "product_sliderimgs":["/bannerimages/grocery3.png","/bannerimages/Pharmacy3.png","/bannerimages/retail1.png"],
         "productlist":[{
             "sp_img":"/images/audit.jpg",
             "sp_Title":"Inventory Management",
@@ -1199,7 +1199,7 @@
         "Product_Detials":[{"Product_title":"AutoMobile",
         "product_dec":"Auditus-IERP software for Automobiles is a comprehensive solution designed to meet the unique needs of the automobile industry. It helps automobile businesses to automate their operations, streamline their workflow, and enhance their productivity. The software comes loaded with a range of features that are specifically designed to cater to the needs of automobile businesses, such as spare parts management, vehicle tracking, inventory management, sales management, and more",
         "product_featureCaption":"Auditus-IERP AutoMobile Features",
-        "product_sliderimgs":["/bannerimages/am1.png","/bannerimages/supermarket6.png","/bannerimages/garment4.png"],
+        "product_sliderimgs":["/bannerimages/supermarket6.png","/bannerimages/garment4.png","/bannerimages/grocery3.png"],
         "productlist":[{
             "sp_img":"/images/audit.jpg",
             "sp_Title":"Sales Management",
@@ -1266,7 +1266,7 @@
         "Product_Detials":[{"Product_title":"Electrical Appaliance",
         "product_dec":"Auditus-IERP software for Electrical Appliances is designed to streamline and automate various business processes of electrical appliance manufacturers, distributors, and retailers. It offers a range of features that help in managing inventory, sales, purchase, finance, production, and other aspects of the business",
         "product_featureCaption":"Auditus-IERP Electrical Appaliance Features",
-        "product_sliderimgs":["/bannerimages/ea1.png","/bannerimages/Pharmacy2.png","/bannerimages/supermarket3.png"],
+        "product_sliderimgs":["/bannerimages/Pharmacy2.png","/bannerimages/supermarket3.png","/bannerimages/garment4.png"],
         "productlist":[{
             "sp_img":"/images/audit.jpg",
             "sp_Title":"Inventory Management",
