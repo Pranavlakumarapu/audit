@@ -11,7 +11,10 @@
 }
 
 .Retail{
-    background: linear-gradient(to top,#2ecbe9,#128fc8,#00468b);
+    /* background: linear-gradient(to top,#2ecbe9,#128fc8,#00468b); */
+    background-image: url('https://img.freepik.com/free-vector/gradient-blue-background_23-2149333531.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
     min-height: 100vh;
     text-decoration: none;
    color: #fff;
@@ -34,7 +37,10 @@ transition: 0.5s;
 }
 
 .Distribution{
-    background: linear-gradient(#0583d2,#4fd6f7,#0583d2);
+    /* background: linear-gradient(#0583d2,#4fd6f7,#0583d2); */
+    background-image: url('https://wallpaperaccess.com/full/1491559.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
     /* height: auto; */
     color: #fff;
     padding-bottom: 1px;
@@ -47,12 +53,17 @@ transition: 0.5s;
 }
 
 
+
+
 /* Manufacturing 1 */
  .CaptionManufacturing{
   text-align: center;
 }
 .Manufacturing{
   background: #00a8e8;
+  background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSuRQlsnvqOTpYpV88E4hqADWYAowiTv5vL9g&usqp=CAU');
+  background-repeat: no-repeat;
+  background-size: cover;
   /* height: 200vh; */
   color: #fff;  
   padding-bottom: 1px;  

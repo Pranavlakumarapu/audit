@@ -107,7 +107,7 @@ import React, { useState, useRef } from 'react';
 import './Contact.css';
 
 const Contact = (props) => {
-  const [height, setHeight] = useState("auto");
+  const [height, setHeight ] = useState("auto");
   const textareaRef = useRef(null);
 
   const handleTextareaChange = () => {
@@ -119,23 +119,28 @@ const Contact = (props) => {
 
   const handleSubmit = (event) => {
     event.preventDefault(); // prevent default form submission behavior
+ 
+
     const formData = new FormData(event.target);
+
     const scriptURL = 'https://script.google.com/macros/s/AKfycbwIFNae2PmbtXH2T8LvB_Ok-mzA_d5aOV1jyAP_KhkxVHPytbx99TgP1HvZkTE5LmC0/exec';
       
     fetch(scriptURL, {
       method: 'POST',
       body: formData
+      
     })
       .then(res => {
         setResponse("Success");
-        console.log('Success!', res);
+        // console.log('Success!', res);
         setTimeout(() => {
           event.target.reset();
-        }, 100);
+   
+        }, 5);
       })
       .catch(error => {
         setResponse("Error");
-        console.error('Error!', error.message);
+         // console.error('Error!', error.message);
       });
   };
 

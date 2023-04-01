@@ -1,7 +1,9 @@
 .contact-page{
   min-height: 100vh;  
 }
-
+.contact-title{
+  padding-top: 15px;
+}
 .contact-container{
   width: auto;
   background: #001660;

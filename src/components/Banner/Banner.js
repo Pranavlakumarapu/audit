@@ -13,7 +13,7 @@ class Banner extends Component {
   render() {
 
     let imgs = [
-{ type:"Retail" ,product_sliderimgs :["/bannerimages/retail1.png","/bannerimages/retail2.png","/bannerimages/retail3.png","/bannerimages/book3.png","/bannerimages/dep3.png","/bannerimages/book4.png"]},
+{ type:"Retail" ,product_sliderimgs :["/bannerimages/retail1.png","/bannerimages/retail2.png","/bannerimages/retail3.png","/bannerimages/book3.png","/bannerimages/dep3.png","/bannerimages/book4.png"]}, 
 { type:"Distribution" ,product_sliderimgs :["/bannerimages/retail1.png","/bannerimages/retail2.png","/bannerimages/retail3.png","/bannerimages/book3.png","/bannerimages/dep3.png","/bannerimages/book4.png"]},
 { type:"Manufacturing" ,product_sliderimgs :["/bannerimages/retail1.png","/bannerimages/retail2.png","/bannerimages/retail3.png","/bannerimages/book3.png","/bannerimages/dep3.png","/bannerimages/book4.png"]},
 ]
@@ -30,7 +30,7 @@ let slides = filteredData.length > 0 ? filteredData[0].product_sliderimgs : [thi
       {
         slides.map((slide, index) => (
           <div key={index}>
-          <img alt="" src={slide} className="bannerimage bannercomponent"/>
+          <img alt="" src={slide} className="bannerimage bannercomponent"/> <span className="imagepara"></span>
           </div>
         ))
       }

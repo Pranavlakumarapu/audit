@@ -6,6 +6,7 @@
 .navs{
     font-weight: 700;
     color:#0A4F88;
+    gap: 20px;
     transition: 0.5s;
   }
 

@@ -9,7 +9,7 @@
         {"Product_title":"SuperMarket",
         "product_dec":"Auditus-IERP software is a powerful solution designed for SuperMarkets to streamline their operations and improve their overall efficiency. This software is specifically tailored to meet the unique needs of SuperMarkets and offers a range of features to help manage inventory, track sales, and analyze customer behavior. With this software, SuperMarkets can easily manage their stock levels and avoid overstocking or understocking, which can impact their bottom line.",
         "product_featureCaption":"Auditus-IERP SuperMarket Features",
-        "product_sliderimgs" :["/bannerimages/supermarket1.png", "/bannerimages/supermarket2.png","/bannerimages/supermarket3.png","/bannerimages/supermarket4.png","/bannerimages/supermarket5.png","/bannerimages/supermarket6.png"],  
+        "product_sliderimgs" :["/bannerimages/supermarket3.png","/bannerimages/supermarket4.png","/bannerimages/supermarket5.png","/bannerimages/supermarket6.png"],  
         "productlist":[{
             "sp_img":"/images/audit.jpg",
             "sp_Title":"Inventory Management",
@@ -141,7 +141,7 @@
 
         "product_dec":"Auditus-IERP, retailers can easily manage their inventory levels and keep track of stock movements across multiple stores and warehouses. The software also provides real-time visibility into sales performance, enabling retailers to make informed decisions about product assortments, pricing, and promotions.",
         "product_featureCaption":"Auditus-IERP Footwear Features",
-        "product_sliderimgs":["/bannerimages/footwear1.png","/bannerimages/footwear2.png","/bannerimages/footwear3.png","/bannerimages/footwear4.png","/bannerimages/footwear5.png"],
+        "product_sliderimgs":["/bannerimages/footwear2.png","/bannerimages/footwear3.png","/bannerimages/footwear4.png","/bannerimages/retail1.png"],
         "productlist":[{
             "sp_img":"/images/audit.jpg",
             "sp_Title":"Product Information Management",
@@ -268,7 +268,7 @@
         "Product_title":"Pharmacy",
         "product_dec":"Auditus-IERP provides advanced reporting capabilities that allow pharmacies to generate custom reports and dashboards, giving them a real-time view of their performance. With this information, pharmacies can quickly identify trends and make informed decisions about their business.",
         "product_featureCaption":"Auditus-IERP Phrmacy Features",
-        "product_sliderimgs":["/bannerimages/Pharmacy1.png","/bannerimages/Pharmacy2.png","/bannerimages/Pharmacy3.png","/bannerimages/Pharmacy4.png","/bannerimages/Pharmacy5.png"],
+        "product_sliderimgs":["/bannerimages/Pharmacy2.png","/bannerimages/Pharmacy3.png","/bannerimages/dep3.png"],
         "productlist":[{
             "sp_img":"/images/audit.jpg",
             "sp_Title":"Inventory Management",
@@ -390,7 +390,7 @@
 
        "product_dec":"Auditus-IERP software is a comprehensive and efficient solution for textile businesses that helps to streamline operations and enhance productivity. With its user-friendly interface and advanced features, Auditus-IERP software is specifically designed to meet the needs of textile manufacturers, wholesalers, and retailers",
         "product_featureCaption":"Auditus-IERP Textiles Features",
-        "product_sliderimgs":["/bannerimages/textile1.png","/bannerimages/textile2.png","/bannerimages/textile3.png","/bannerimages/textile4.png","/bannerimages/textile5.png"],
+        "product_sliderimgs":["/bannerimages/textile2.png","/bannerimages/textile3.png","/bannerimages/textile5.png"],
         "productlist":[{
             "sp_img":"/images/audit.jpg",
             "sp_Title":"Inventory Management",
@@ -482,7 +482,7 @@
         "Product_Detials":[{"Product_title":"Garment",
         "product_dec":" Auditus-IERP software provides a comprehensive solution for garment businesses to manage their operations efficiently. From inventory management to production planning, sales management, and customer relationship management, Auditus-IERP software provides a range of tools to help businesses optimize their processes and achieve their business goals.",
         "product_featureCaption":"Auditus-IERP Garment Features",
-        "product_sliderimgs":["/bannerimages/garment1.png","/bannerimages/garment2.png","/bannerimages/garment3.png","/bannerimages/garment4.png","/bannerimages/garment5.png"],
+        "product_sliderimgs":["/bannerimages/garment3.png","/bannerimages/garment4.png","/bannerimages/garment5.png"],
         "productlist":[{
             "sp_img":"/images/audit.jpg",
             "sp_Title":"Product development",
