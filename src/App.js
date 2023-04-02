@@ -4,7 +4,7 @@ import Contact from './components/Contact/Contact';
 import Navbar  from './components/NavBar/Navbar';
 import Products from './components/Price/Products';
 import {BrowserRouter , Routes, Route  } from "react-router-dom";
-import Service from './components/Service/Service';
+import Service from './components/Service';
 import Download from './components/Download/Download';
 import Home from './components/Menu/Home';
 import Menu from './components/Menu/Menu';
