@@ -14,7 +14,12 @@ export default function Products() {
 
       <ul className="features">
         <li className='price-basic'>
-        STANDARD Edition: The STANDARD edition is a step up from the STARTUP edition, offering more advanced features and greater functionality for growing businesses. This edition provides a comprehensive solution for businesses that need more control over their financial processes and want to take their operations to the next level. The STANDARD edition includes everything from accounting and billing, to advanced reporting and analysis tools, giving businesses the tools they need to succeed.
+        STARTUP Edition: The STARTUP edition is designed for small businesses and entrepreneurs who are 
+        just starting out. It provides basic accounting and invoicing tools to help businesses manage 
+        their finances and cash flow. With the STARTUP edition, businesses can easily create and send invoices, 
+        track expenses, and reconcile bank transactions. It's a great solution for businesses that need a simple 
+        and affordable way to manage their finances.While the STARTUP edition has limited features compared to the STANDARD edition, 
+         it's a good starting point for businesses that are just getting off the ground.
         </li>
       </ul>
     </div>

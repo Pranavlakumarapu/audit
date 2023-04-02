@@ -121,38 +121,38 @@ export default class Navbar extends Component {
 
     <Dropdown.Menu >
     <Dropdown.Item >
-  <Link to="/" state={{ data: { name: "Retail" } }} className="retailtitle">
+  <Link to="/" state={{ data: { name: "Retail" } }} onClick={() => { this.setState({ show: true }); }} className="retailtitle">
     <img alt='' src='/images/retailtitleimg.png' className='links-img'/>
     <span className='retailname'>Retail</span>
   </Link>
 </Dropdown.Item>
 
       <Dropdown.Item >
-      <Link   to="/" state={{ data:{name: "Distribution"} }} className="Distributiontitle">
+      <Link   to="/" state={{ data:{name: "Distribution"} }} onClick={() => { this.setState({ show: true }); }} className="Distributiontitle">
 <div className='teximg-link'>      
 
-<Link   to="/" state={{ data:{name: "Distribution"} }} className="Distributiontitle">
+<Link   to="/" state={{ data:{name: "Distribution"} }} onClick={() => { this.setState({ show: true }); }} className="Distributiontitle">
 <img alt='' src='/images/distribution.png' className='links-img'/> <span className='retailname'>Distribution</span></Link>
 </div>
     </Link>
 
       </Dropdown.Item>
       <Dropdown.Item >
-      <Link to="/" state={{ data:{name: "Manufacturing"} }} className="Manufacturingtitle">
+      <Link to="/" state={{ data:{name: "Manufacturing"} }} onClick={() => { this.setState({ show: true }); }} className="Manufacturingtitle">
 <div className='teximg-link'>      
 
-<Link to="/" state={{ data:{name: "Manufacturing"} }} className="Manufacturingtitle">
+<Link to="/" state={{ data:{name: "Manufacturing"} }} onClick={() => { this.setState({ show: true }); }} className="Manufacturingtitle">
 <img alt='' src='/images/manufacture.png' className='links-img'/> <span className='retailname'>Manufacturing</span></Link>
 </div>
     </Link>
       </Dropdown.Item>
     </Dropdown.Menu>
   </Dropdown>
-        <Link to='/Products' className="nav-link     navs  page-scroll"    >Pricing</Link> 
-        <Link to='/Support' className="nav-link     navs  page-scroll"     >Support</Link> 
-          <Link to='/Service' className="nav-link    navs  page-scroll"    >Services</Link>
-             <Link to='/Contact' className="nav-link navs  page-scroll"    >Contact</Link>
-             <Link to='/Download' className="nav-link navs  page-scroll"   >Download</Link>
+        <Link to='/Products' className="nav-link     navs  page-scroll"    onClick={() => { this.setState({ show: true }); }}    >Pricing</Link> 
+        <Link to='/Support' className="nav-link     navs  page-scroll"     onClick={() => { this.setState({ show: true }); }}    >Support</Link> 
+          <Link to='/Service' className="nav-link    navs  page-scroll"    onClick={() => { this.setState({ show: true }); }}    >Services</Link>
+             <Link to='/Contact' className="nav-link navs  page-scroll"    onClick={() => { this.setState({ show: true }); }}    >Contact</Link>
+             <Link to='/Download' className="nav-link navs  page-scroll"   onClick={() => { this.setState({ show: true }); }}    >Download</Link>
              <Sidecontactform/>
           </div>
           </div>
